@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 32640 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 65483 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,199 +11,1123 @@ C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/Unity Project Folders/GitHub/Facility/Facility
+E:/Desktop/Files/Unity Projects/Facility/Facility
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50424
-Successfully changed project path to: E:/Unity Project Folders/GitHub/Facility/Facility
-E:/Unity Project Folders/GitHub/Facility/Facility
+57455
+Successfully changed project path to: E:/Desktop/Files/Unity Projects/Facility/Facility
+E:/Desktop/Files/Unity Projects/Facility/Facility
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity Project Folders/GitHub/Facility/Facility/Assets
+[Subsystems] Discovering subsystems at path E:/Desktop/Files/Unity Projects/Facility/Facility/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   
-    VRAM:     8081 MB
-    Driver:   26.21.14.3153
+    VRAM:     5991 MB
+    Driver:   27.21.14.6192
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003949 seconds.
+Registered in 0.001603 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.445 seconds
+- Completed reload, in  0.811 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000686 seconds.
+Registered in 0.000342 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
+- Completed reload, in  0.645 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.3 MB.
-System memory in use after: 57.3 MB.
+System memory in use before: 57.4 MB.
+System memory in use after: 57.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 1.938300 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.667300 ms  DeleteObjects: 0.118500 ms)
+Total: 1.502800 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.266700 ms  DeleteObjects: 0.060900 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Models
+  artifactKey: Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c25d4aad966803cd2139fdc27ad80') in 0.006386 seconds
+  Import took 0.007888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.287002 seconds.
+  path: Assets/Models/Halls and Rooms
+  artifactKey: Guid(4e611837e95d35d4cbf6e6de0263705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms using Guid(4e611837e95d35d4cbf6e6de0263705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405085bcd06ba6aece47162cdfef2cde') in 0.005225 seconds
+  Import took 0.006854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.713058 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms
+  artifactKey: Guid(f0eb2b0764c61d8438038d44fc617227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms using Guid(f0eb2b0764c61d8438038d44fc617227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c33d83dca5475e9ca4b9f3081777c2') in 0.005177 seconds
+  Import took 0.006953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.682496 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Materials
+  artifactKey: Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Materials using Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2792aa7cc7ffe5e35ac4f655fb71317d') in 0.004870 seconds
+  Import took 0.006583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.838176 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex
+  artifactKey: Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex using Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdbd9109c6029cf109a59abf8105ff8') in 0.005550 seconds
+  Import took 0.007136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.517519 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28c94fbe3392ed9b83268d203535c87') in 0.347717 seconds
+  Import took 0.349590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.002.fbx
+  artifactKey: Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.002.fbx using Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c898e5109c1987a0c3f006011e413af') in 0.036534 seconds
+  Import took 0.037972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0be2b94c1811b5bbb8ab6729e32af4') in 0.242504 seconds
+  Import took 0.244147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.289515 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2184d537a66d0144385a465053efc784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2184d537a66d0144385a465053efc784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d1503ecb72ed0035f5011d53f1ee3e') in 0.004726 seconds
+  Import took 0.006459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.538349 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef4003942b006f93d193f229ff5b5da') in 0.005712 seconds
+  Import took 0.007485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef4003942b006f93d193f229ff5b5da') in 0.001996 seconds
+  Import took 0.003809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.527683 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f174a741580463d90fcf573aecfb8252') in 0.056526 seconds
+  Import took 0.058403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.002.fbx
+  artifactKey: Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.002.fbx using Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7c9893bd6a03e697a8c6f734a9fefb') in 0.036331 seconds
+  Import took 0.037914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9278ffabe4613bf4c627d95c4e27f72b') in 0.075908 seconds
+  Import took 0.077566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.871170 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hospital wing creation.obj
+  artifactKey: Guid(cfd986847e5c1fe4ba32877da1ae81d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hospital wing creation.obj using Guid(cfd986847e5c1fe4ba32877da1ae81d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96bb5ada900c4150afcc3f1c089fac') in 0.017115 seconds
+  Import took 0.019062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5342.621974 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f872fb02991f4a892a93a89311d4fce1') in 0.052291 seconds
+  Import took 0.054358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.134021 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e81666963a77e691ae5696dc10a18fb') in 0.049883 seconds
+  Import took 0.051745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.722178 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfa21ee2badab076347cbbfb8c19c98') in 0.051602 seconds
+  Import took 0.053516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.821297 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.png
+  artifactKey: Guid(b2dad569525b93b4a9b911fb483abf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.png using Guid(b2dad569525b93b4a9b911fb483abf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d93f831c64140a78f9d7527c296c98') in 0.025721 seconds
+  Import took 0.027590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.png
+  artifactKey: Guid(7b9836fa63d700243963616471495d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.png using Guid(7b9836fa63d700243963616471495d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a53064afd7e1aca94ff730e2a90e874') in 0.011402 seconds
+  Import took 0.012922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.png
+  artifactKey: Guid(c3c68e42faa31ca418097b0dc93f6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.png using Guid(c3c68e42faa31ca418097b0dc93f6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f887e30f88d5a393388f296cefd3181d') in 0.009891 seconds
+  Import took 0.011745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.png
+  artifactKey: Guid(e41cea20e90d2a7418afa392334bb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.png using Guid(e41cea20e90d2a7418afa392334bb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008b0e84d59f2d64d9483b900bccdb39') in 0.009415 seconds
+  Import took 0.010986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.png
+  artifactKey: Guid(02f762fc21ff36341992f3d8f7c7d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.png using Guid(02f762fc21ff36341992f3d8f7c7d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333422591f07b51b00552fcaad63f629') in 0.009794 seconds
+  Import took 0.011291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.675855 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex
+  artifactKey: Guid(003f8ec06bd7c424e9bcfb2334554ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex using Guid(003f8ec06bd7c424e9bcfb2334554ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4f8c7c6108b2212c8edc5c35a010ff') in 0.004586 seconds
+  Import took 0.006281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.231296 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat
+  artifactKey: Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat using Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508e6b21bf0db4bd5d7079f617c7fff6') in 0.010590 seconds
+  Import took 0.012368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.309422 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat
+  artifactKey: Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat using Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd501efedf8c5211395cc7fb4c3dd03e') in 0.005858 seconds
+  Import took 0.007639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.345319 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8204ab44cd4fc04c0764d44c7e037ad') in 0.006504 seconds
+  Import took 0.008308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.175217 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat
+  artifactKey: Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat using Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51fa1f5fcc459d206729f9cfec941f2') in 0.006307 seconds
+  Import took 0.008061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.647720 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.mat
+  artifactKey: Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.mat using Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3743b561b36deab2336cd313e4c4f5b5') in 0.005923 seconds
+  Import took 0.007756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.990869 seconds.
+  path: Assets/Textures/Carpet.jpg
+  artifactKey: Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Carpet.jpg using Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112e78457c35f61b52c554e439df17a') in 0.010214 seconds
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Fonts/WELTSP__.TTF
+  artifactKey: Guid(896291cb3cc3f934cbc72ed4c6886fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/WELTSP__.TTF using Guid(896291cb3cc3f934cbc72ed4c6886fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34584806f3ae7f5e4bca8db4c81bea60') in 0.016437 seconds
+  Import took 0.018266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Textures/Carpet.jpg
+  artifactKey: Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Carpet.jpg using Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112e78457c35f61b52c554e439df17a') in 0.008265 seconds
+  Import took 0.009763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
   path: Assets/Fonts/208.ttf
   artifactKey: Guid(ba00f5f8f92da7c46b5704f4d13632e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/208.ttf using Guid(ba00f5f8f92da7c46b5704f4d13632e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859c9a34033eba0519fbfb0b360660a6') in 0.125817 seconds
-  Import took 0.127608 seconds .
+Start importing Assets/Fonts/208.ttf using Guid(ba00f5f8f92da7c46b5704f4d13632e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4579e62ae0665cb9b2fb00322cb90c5') in 0.012643 seconds
+  Import took 0.014229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Textures/pic_Disco_Ball_Mirror_Mosaic_Tile_Texture_3x2_light_glow.jpg
+  artifactKey: Guid(05429a1e1885dfd4386aa7a6d5a41742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/pic_Disco_Ball_Mirror_Mosaic_Tile_Texture_3x2_light_glow.jpg using Guid(05429a1e1885dfd4386aa7a6d5a41742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1360ca206cd99618e4a458d1917d773') in 0.010103 seconds
+  Import took 0.011566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
   path: Assets/Fonts/Gecko Lunch.ttf
   artifactKey: Guid(a27437392753f8e4b9edacd099b8268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Gecko Lunch.ttf using Guid(a27437392753f8e4b9edacd099b8268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa71d28440d81a46a60b2ecfc840188') in 0.009301 seconds
-  Import took 0.011372 seconds .
+Start importing Assets/Fonts/Gecko Lunch.ttf using Guid(a27437392753f8e4b9edacd099b8268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d75fc0fb4930976b9c3f202b9d2ce2') in 0.008725 seconds
+  Import took 0.010166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Fonts/Question.ttf
+  artifactKey: Guid(53b5d6c133ccd914ebf56dba511e853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Question.ttf using Guid(53b5d6c133ccd914ebf56dba511e853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b54d51f668313de45f1db735b9abe9') in 0.009908 seconds
+  Import took 0.011410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Fonts/Expatriate_Promo.ttf
+  artifactKey: Guid(7c66ea356005b1f4b9ceddea97707b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Expatriate_Promo.ttf using Guid(7c66ea356005b1f4b9ceddea97707b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249eddb9d205141b077e929913be8db') in 0.008084 seconds
+  Import took 0.009598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
   path: Assets/Fonts/BEAMIE.TTF
   artifactKey: Guid(f83f9e58e2890e64ca9a0bf7613459e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/BEAMIE.TTF using Guid(f83f9e58e2890e64ca9a0bf7613459e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b685b8ad77dae6f94221e974e27fdc') in 0.012281 seconds
-  Import took 0.014334 seconds .
+Start importing Assets/Fonts/BEAMIE.TTF using Guid(f83f9e58e2890e64ca9a0bf7613459e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50125ab8839685b1bb961ea41bf0056e') in 0.008423 seconds
+  Import took 0.010176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
+  Time since last request: 0.000127 seconds.
   path: Assets/Fonts/heavy heap.ttf
   artifactKey: Guid(d600e6df76d8cfb4aa13631bca2ef0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/heavy heap.ttf using Guid(d600e6df76d8cfb4aa13631bca2ef0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97eff400b30044cbcd924c1b6fd49e6') in 0.009328 seconds
-  Import took 0.011322 seconds .
+Start importing Assets/Fonts/heavy heap.ttf using Guid(d600e6df76d8cfb4aa13631bca2ef0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a62ba8a10e2bac430b5363808d93335') in 0.008087 seconds
+  Import took 0.009532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Fonts/WickedSeventies.ttf
+  artifactKey: Guid(aaf8754bd68c1154189b390e7c52961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/WickedSeventies.ttf using Guid(aaf8754bd68c1154189b390e7c52961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d6d3b07931ad8ce58beb0f7a345a5') in 0.008701 seconds
+  Import took 0.010178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Textures/Ceiling.jpg
+  artifactKey: Guid(39547b17c9abfe540878256960dfe9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ceiling.jpg using Guid(39547b17c9abfe540878256960dfe9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97ff2aaf4bcb67f4efebacf20015b70') in 0.007830 seconds
+  Import took 0.009249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Textures/Wallpaper 2.jpg
+  artifactKey: Guid(37f9a24a42b39394b840efcede7f72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wallpaper 2.jpg using Guid(37f9a24a42b39394b840efcede7f72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa5563d1a3c3786fcbbb98e021a5a65') in 0.006486 seconds
+  Import took 0.008323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
   path: Assets/Fonts/Nomitais.ttf
   artifactKey: Guid(4dd6f6569d3d18344b235030da767aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Nomitais.ttf using Guid(4dd6f6569d3d18344b235030da767aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dc968f4cdc67fbad5d4a7d1c45caa6') in 0.009806 seconds
-  Import took 0.011928 seconds .
+Start importing Assets/Fonts/Nomitais.ttf using Guid(4dd6f6569d3d18344b235030da767aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77efafd54a4eb48eece953314a7a4010') in 0.009821 seconds
+  Import took 0.011585 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.6 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.815800 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.561500 ms  DeleteObjects: 0.083800 ms)
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Textures/Wallpaper 1.jpg
+  artifactKey: Guid(36a16fc7caa28754686020bc345e3b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wallpaper 1.jpg using Guid(36a16fc7caa28754686020bc345e3b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8c8bb74074fc554e29ecb42b25997c') in 0.007677 seconds
+  Import took 0.009142 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000674 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.853900 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.617100 ms  DeleteObjects: 0.065800 ms)
+Received Import Request.
+  Time since last request: 63.433459 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat
+  artifactKey: Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat using Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf32a46a62a16bada02309fcfef587') in 0.010477 seconds
+  Import took 0.012570 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000608 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.876000 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.609600 ms  DeleteObjects: 0.088600 ms)
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.mat
+  artifactKey: Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 5.mat using Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f5ecfca374254870296ae2d0bc0279') in 0.010505 seconds
+  Import took 0.012317 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001141 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.816200 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.554700 ms  DeleteObjects: 0.090200 ms)
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat
+  artifactKey: Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat using Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f658957e877fee939d3e928922c22181') in 0.009820 seconds
+  Import took 0.011319 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat
+  artifactKey: Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat using Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316f272a76ad59d247de8322097d872') in 0.012851 seconds
+  Import took 0.014505 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.872100 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.088800 ms MarkObjects: 1.558400 ms  DeleteObjects: 0.050500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7432edd6c71d17f89654b8f343707') in 0.011755 seconds
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat
+  artifactKey: Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat using Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316f272a76ad59d247de8322097d872') in 0.010761 seconds
+  Import took 0.012337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7432edd6c71d17f89654b8f343707') in 0.010049 seconds
+  Import took 0.011505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.077037 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 1.png
+  artifactKey: Guid(6aaed9707b02e0a4f8b3a197a3750e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 1.png using Guid(6aaed9707b02e0a4f8b3a197a3750e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918d3c457ae9a1734ee0cfb31d757646') in 0.008830 seconds
+  Import took 0.010614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 4.png
+  artifactKey: Guid(01ce9fc153ed646479867493de6cc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 4.png using Guid(01ce9fc153ed646479867493de6cc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce45c79b2d5118a219ed9c955e9cd12') in 0.011315 seconds
+  Import took 0.012927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 2.png
+  artifactKey: Guid(c15db71c3235e3e42b4f520a5221dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 2.png using Guid(c15db71c3235e3e42b4f520a5221dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5972e2efe1c167356ba8077d4d492d9') in 0.008875 seconds
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 5.png
+  artifactKey: Guid(59058aa67547a7f409fa264e76b9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 5.png using Guid(59058aa67547a7f409fa264e76b9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2980ab00884de4d0a39ebfed9090666') in 0.008993 seconds
+  Import took 0.010541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 3.png
+  artifactKey: Guid(2eb84494f0c82f74ca96d272796dab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Wallpaper 3.png using Guid(2eb84494f0c82f74ca96d272796dab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a586533a5b3a49617b0f53ca287486c8') in 0.009985 seconds
+  Import took 0.011448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.683361 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c86e06ae98e893dac423c751346709') in 0.045173 seconds
+  Import took 0.047082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.130543 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Color.jpg
+  artifactKey: Guid(7d8a478494925b847a4e0cb2837e1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Color.jpg using Guid(7d8a478494925b847a4e0cb2837e1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d8803d9c512780fe85585aaa850b5') in 0.013792 seconds
+  Import took 0.015715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Normal.jpg
+  artifactKey: Guid(9f2b42fcd825e5547ab0ca9bdc7ba34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Normal.jpg using Guid(9f2b42fcd825e5547ab0ca9bdc7ba34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21681092b5c14c0dfca5254103007f7') in 0.009299 seconds
+  Import took 0.010732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.699803 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Fabric030_2K_Color.jpg
+  artifactKey: Guid(10046bdd502e5df4d94bbe197059210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Fabric030_2K_Color.jpg using Guid(10046bdd502e5df4d94bbe197059210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4f51d79cf35f9cab47572b0042c00c') in 0.011356 seconds
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.187673 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting chairs UV.png
+  artifactKey: Guid(1c798c04ec7b6f5428709100c49bc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting chairs UV.png using Guid(1c798c04ec7b6f5428709100c49bc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee03a4ac0f4c11ee2ac40a4e575faa') in 0.010040 seconds
+  Import took 0.011946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.644820 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Material.mat
+  artifactKey: Guid(060a24512d4987d40bf9fe49f339df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Material.mat using Guid(060a24512d4987d40bf9fe49f339df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f577b30881c69da8e6bbc9b2e06d48') in 0.009326 seconds
+  Import took 0.011126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.806335 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Folder
+  artifactKey: Guid(3487604fd0260df478075616e43e03d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Folder using Guid(3487604fd0260df478075616e43e03d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db783bf91ed9ca154815deffeeb67e7') in 0.004757 seconds
+  Import took 0.006459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.550022 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting Room chairs.mat
+  artifactKey: Guid(1b8b6938f98537b46b5fdbecd712a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting Room chairs.mat using Guid(1b8b6938f98537b46b5fdbecd712a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3183662dc2778334ef616551fd49651') in 0.009074 seconds
+  Import took 0.010878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.400122 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/props_Albedo.tga
+  artifactKey: Guid(db13eb83aec863c478eda1fe2e5653d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/props_Albedo.tga using Guid(db13eb83aec863c478eda1fe2e5653d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297a76c0062166bb361a3ad54d25bca') in 0.032977 seconds
+  Import took 0.035088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.297828 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/door_single_Albedo.tga
+  artifactKey: Guid(fb23eed45eeb0da4c8604d5387b40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/door_single_Albedo.tga using Guid(fb23eed45eeb0da4c8604d5387b40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd5524e73533ce2c066e5f41746b1d3') in 0.010979 seconds
+  Import took 0.012831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.418708 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/frame_Albedo.tga
+  artifactKey: Guid(b8e8873a86b1dc145a8c1b8f98b442ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/frame_Albedo.tga using Guid(b8e8873a86b1dc145a8c1b8f98b442ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285e709d52871f3d5bff4db84c781763') in 0.009949 seconds
+  Import took 0.011830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.994567 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_single.mat
+  artifactKey: Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_single.mat using Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ac2ddc0b17a22ab935d0362a44b4a1') in 0.010305 seconds
+  Import took 0.012119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.571816 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_props.mat
+  artifactKey: Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_props.mat using Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9c76da1b901e3e9986b9a95738ad5f') in 0.009937 seconds
+  Import took 0.011838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.429884 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_frame.mat
+  artifactKey: Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_frame.mat using Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd640970853fce07d8127e8ab42cbae') in 0.010057 seconds
+  Import took 0.011914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.152183 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_frame.mat
+  artifactKey: Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_frame.mat using Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1397b909b90cdbcf0244bf0ec1d5a71a') in 0.010176 seconds
+  Import took 0.011985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_props.mat
+  artifactKey: Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_props.mat using Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37abb75d547bd06f1bbd5a923d88592f') in 0.008705 seconds
+  Import took 0.010208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting Room chairs.mat
+  artifactKey: Guid(1b8b6938f98537b46b5fdbecd712a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Waiting Room chairs.mat using Guid(1b8b6938f98537b46b5fdbecd712a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57f664d70ba3eefbe8825dce36e7e3f') in 0.010867 seconds
+  Import took 0.012424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_single.mat
+  artifactKey: Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Door_single.mat using Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94538ca1494c39506b8e8d657859dd0e') in 0.009250 seconds
+  Import took 0.010851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.270072 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Ceiling.mat
+  artifactKey: Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Ceiling.mat using Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc27c5f9f79190900760ca89d808e80c') in 0.007382 seconds
+  Import took 0.009155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.774099 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch_fabric.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch_fabric.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f822bba9068f6f6fdcdfc9faad51be6f') in 0.009012 seconds
+  Import took 0.010787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.707874 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0dbb23641387917e003102e7429b9b') in 0.008564 seconds
+  Import took 0.010349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.158897 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_wood.mat
+  artifactKey: Guid(6c8f2d3391062cd4c823d76e4f55dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_wood.mat using Guid(6c8f2d3391062cd4c823d76e4f55dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c76b0d7050a3bd97f4109c57afadfc7') in 0.009580 seconds
+  Import took 0.011355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.782839 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Ceiling.mat
+  artifactKey: Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Ceiling.mat using Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3271c71bbf165abce37c1f07dae1110f') in 0.012064 seconds
+  Import took 0.013976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a41e32f25500870de1ddebef95809e4') in 0.008498 seconds
+  Import took 0.010230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.200367 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_UV.png
+  artifactKey: Guid(ed96a1192f8502d48ab7f507886cf86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_UV.png using Guid(ed96a1192f8502d48ab7f507886cf86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d94780858ea6f9bbcfe8d9c91c0907') in 0.011305 seconds
+  Import took 0.013145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.422894 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_UV 1.png
+  artifactKey: Guid(8ab60d5fdf1e718479496c666f686361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_UV 1.png using Guid(8ab60d5fdf1e718479496c666f686361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384d0e9deab4dd55bd557f9a48ba6e24') in 0.008493 seconds
+  Import took 0.010479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.189097 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1_fabric.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385706f5c9ce1d12f802e9dc419ebac') in 0.010400 seconds
+  Import took 0.012262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.278188 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat
+  artifactKey: Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 1.mat using Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b5cf77597036db013640ae0484238') in 0.011104 seconds
+  Import took 0.012887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.060703 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Couch1.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067d9e3cec048cb81eadb26cf4240d9f') in 0.010497 seconds
+  Import took 0.012375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.222339 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat
+  artifactKey: Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 2.mat using Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810051fbffdac767bd22853ddbdd9fa4') in 0.012844 seconds
+  Import took 0.014684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.436191 seconds.
+  path: Assets/Materials/Carpet.mat
+  artifactKey: Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Carpet.mat using Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69c06964f27a3d7f4bb561d72d4b371') in 0.008868 seconds
+  Import took 0.010648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Materials/Orange.mat
+  artifactKey: Guid(0ee66d3fcc912e6408538ecf01425919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Orange.mat using Guid(0ee66d3fcc912e6408538ecf01425919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd7774739656688d77c911b60589043') in 0.007492 seconds
+  Import took 0.008980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models/Chair/the chair modeling.obj
+  artifactKey: Guid(c58ff466fa833b040b7004261fe5cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chair/the chair modeling.obj using Guid(c58ff466fa833b040b7004261fe5cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f850327e42e90aee67bb8f7c656b403') in 0.023809 seconds
+  Import took 0.025355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Materials/Disco Ball.mat
+  artifactKey: Guid(c0b05e9dd9545ec43bf1410e19b48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Disco Ball.mat using Guid(c0b05e9dd9545ec43bf1410e19b48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290d39c61a51901d66cd3fb8f37d16dd') in 0.008966 seconds
+  Import took 0.010596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Materials/Wallpaper.mat
+  artifactKey: Guid(857e640db25846843858da2684798671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wallpaper.mat using Guid(857e640db25846843858da2684798671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a78fa0c3485e7fc0520acac842c1c6f') in 0.009687 seconds
+  Import took 0.011177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Materials/Ceiling.mat
+  artifactKey: Guid(8091a63546f515a40a47edc696ee20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling.mat using Guid(8091a63546f515a40a47edc696ee20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed60767ff6bf86bf92fce85794df4dc') in 0.008021 seconds
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Materials/Carpet.mat
+  artifactKey: Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Carpet.mat using Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69c06964f27a3d7f4bb561d72d4b371') in 0.009425 seconds
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.608350 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx
+  artifactKey: Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx using Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c446b76f289b87292e9681e0c43c595f') in 0.041735 seconds
+  Import took 0.043961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.771906 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx
+  artifactKey: Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx using Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4436a5f1b5a1cab9ff6dd80f2342b5') in 0.035217 seconds
+  Import took 0.037592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.071797 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx
+  artifactKey: Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx using Guid(5aca36a64fe979f4eab977671d9191a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebec558a4137db1ee844b463a89ea946') in 0.032178 seconds
+  Import took 0.034424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.749915 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0d443d725cf52cb48ba03c4058d04c') in 0.042106 seconds
+  Import took 0.044475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.816986 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f245791c62a4810ec3eadd08ef7d4') in 0.045804 seconds
+  Import took 0.048260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.256326 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Normal.jpg
+  artifactKey: Guid(9f2b42fcd825e5547ab0ca9bdc7ba34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/OfficeCeiling001_2K_Normal.jpg using Guid(9f2b42fcd825e5547ab0ca9bdc7ba34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f5074c366c75579f30dff3dce0e43b') in 0.012773 seconds
+  Import took 0.014560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.977397 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb245060b021ec5af12d83c72219485') in 0.055497 seconds
+  Import took 0.058290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.815803 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b6a434b491dc6a6359eebaa0a5b7e9') in 0.049714 seconds
+  Import took 0.052538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.662786 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e45f4bc344e6a22c56aeef9ce0b1aa') in 0.034298 seconds
+  Import took 0.036855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.244226 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c447c9d5194d4fd3b605eaae73ad7a77') in 0.080267 seconds
+  Import took 0.082375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.603930 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05da9f8aa8eeac8ae0dc61bb251ee8e') in 0.078157 seconds
+  Import took 0.080334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.008607 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7dab852cbadc07c1249c37969c2392') in 0.077718 seconds
+  Import took 0.079766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.820384 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png
+  artifactKey: Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png using Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731b0d7dcfe113861ff3251bf68d662a') in 0.009443 seconds
+  Import took 0.011358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/wood_1_090_diffuse.png
+  artifactKey: Guid(4c43fce2271f747449ff54dfd0aa2e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/wood_1_090_diffuse.png using Guid(4c43fce2271f747449ff54dfd0aa2e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e186bece7ee88b8ddcc25c4250626b') in 0.009694 seconds
+  Import took 0.011188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087f1329630d26cfd30714f0b996d608') in 0.082093 seconds
+  Import took 0.084287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.493149 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Flare.flare
+  artifactKey: Guid(5b4ca786fef4f1d44aeeeb0548325846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Flare.flare using Guid(5b4ca786fef4f1d44aeeeb0548325846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8412e4221f9b947616c76ce1f2cdc0d3') in 0.008496 seconds
+  Import took 0.010364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Flare.flare
+  artifactKey: Guid(5b4ca786fef4f1d44aeeeb0548325846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/New Flare.flare using Guid(5b4ca786fef4f1d44aeeeb0548325846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8412e4221f9b947616c76ce1f2cdc0d3') in 0.001702 seconds
+  Import took 0.003126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.394234 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Chair1_fabric.mat
+  artifactKey: Guid(994daea0c9cdf7d4596f4712c54bc6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Chair1_fabric.mat using Guid(994daea0c9cdf7d4596f4712c54bc6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2cd07c28f126c5087623d2bca91f8a') in 0.010822 seconds
+  Import took 0.012703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.499582 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Chair1_wood.mat
+  artifactKey: Guid(2d3ba7f212aead645ae6c3722079aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Chair1_wood.mat using Guid(2d3ba7f212aead645ae6c3722079aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bdd94d44717815a0f66d88eebe75b6') in 0.007648 seconds
+  Import took 0.009430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.361497 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6878888a2771905801d7563c212a605e') in 0.082308 seconds
+  Import took 0.084997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/WoodFineDark004_COL_2K.jpg
+  artifactKey: Guid(ef9d347450b6d024281fa423112b2fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/WoodFineDark004_COL_2K.jpg using Guid(ef9d347450b6d024281fa423112b2fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988c77628757b8a759f32afeb0d6a013') in 0.010346 seconds
+  Import took 0.012000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.857847 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/2.jpg
+  artifactKey: Guid(c87b0f26c8773c94f91e4beaf6912a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/2.jpg using Guid(c87b0f26c8773c94f91e4beaf6912a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d770b2f1adc47548369cfa5434139f0') in 0.008464 seconds
+  Import took 0.010239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Tex.details 8000.jpg
+  artifactKey: Guid(28d8d83914985b045982cf3e04b507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Tex.details 8000.jpg using Guid(28d8d83914985b045982cf3e04b507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966108e5dfd4f19873e124b6eb6f6fc7') in 0.009266 seconds
+  Import took 0.010709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/tex casing.jpg
+  artifactKey: Guid(0c328a9045497244f82020539aca8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/tex casing.jpg using Guid(0c328a9045497244f82020539aca8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5722e87173a69be540603a4f34c2207a') in 0.007582 seconds
+  Import took 0.009044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Tex.details II.jpg
+  artifactKey: Guid(548c0822b8ef0a14691735b88b710078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Tex.details II.jpg using Guid(548c0822b8ef0a14691735b88b710078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce3b25aa8f76b701785a5bc9e8b934c') in 0.011586 seconds
+  Import took 0.013055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21a89a87eb18fd699ae1c48488f6323') in 0.089879 seconds
+  Import took 0.092592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.786852 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Screen.mat
+  artifactKey: Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Screen.mat using Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd976310c53a04c0a7084fbc7a05210') in 0.010764 seconds
+  Import took 0.012555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.213166 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00875f046aef867309c7dd349b17152e') in 0.084575 seconds
+  Import took 0.087668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008493 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Screen.mat
+  artifactKey: Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Tex/Screen.mat using Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d7d3e672e74f4cebf31fa7370fe22d') in 0.007548 seconds
+  Import took 0.009381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.079951 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861091e4f98c06588fc882b681850604') in 0.084322 seconds
+  Import took 0.087511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.697207 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat
+  artifactKey: Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex/Wallpaper 4.mat using Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4da502e7b694ebe47af458e6835b3') in 0.013107 seconds
+  Import took 0.015191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.576217 seconds.
+  path: Assets/Models/Halls and Rooms/Rooms/Mat-Tex
+  artifactKey: Guid(99559842f46ca4e4f818b62ad7d25d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Rooms/Mat-Tex using Guid(99559842f46ca4e4f818b62ad7d25d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9249833faa863b9294a00f63b0999c0') in 0.005151 seconds
+  Import took 0.006900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.888667 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Mat-Tex
+  artifactKey: Guid(70ecae3acacf01e428fc6d86687943b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Mat-Tex using Guid(70ecae3acacf01e428fc6d86687943b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2766bb0238c94e359c6645641e342') in 0.001508 seconds
+  Import took 0.003108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Mat-Tex
+  artifactKey: Guid(70ecae3acacf01e428fc6d86687943b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Mat-Tex using Guid(70ecae3acacf01e428fc6d86687943b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2766bb0238c94e359c6645641e342') in 0.000999 seconds
+  Import took 0.002135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.825425 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex
+  artifactKey: Guid(06d0e2628616b4a469023d1506d8d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex using Guid(06d0e2628616b4a469023d1506d8d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06375ed3c5d088e127781d743f5b234c') in 0.004803 seconds
+  Import took 0.006455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.417449 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.001.fbx
+  artifactKey: Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.001.fbx using Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c8730eb32ca3caf56444bb2070a369') in 0.017524 seconds
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.003.fbx
+  artifactKey: Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.003.fbx using Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41958a10acbfc315206d30143c8c8268') in 0.034634 seconds
+  Import took 0.036161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.002.fbx
+  artifactKey: Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.002.fbx using Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daad1d7c109323d912e49673e8799f1e') in 0.032626 seconds
+  Import took 0.034570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.004.fbx
+  artifactKey: Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.004.fbx using Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c12f6faf035b4d3eded2e6c223209f') in 0.035126 seconds
+  Import took 0.036721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b7c21b765dca0270c3b8cdb41f38d3') in 0.011929 seconds
+  Import took 0.013376 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
