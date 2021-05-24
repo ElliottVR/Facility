@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 492}
+  m_MinSize: {x: 676, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 3240
+  controlID: 48
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1554
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 401, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 3241
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1554
     height: 675
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 401, y: 221}
+  m_MaxSize: {x: 8001, y: 4021}
   vertical: 0
-  controlID: 3242
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -192,14 +192,14 @@ MonoBehaviour:
     y: 0
     width: 685
     height: 675
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -334,10 +334,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -348,18 +348,18 @@ MonoBehaviour:
       y: 21
       width: 684
       height: 633
-    m_Scale: {x: 1.2634131, y: 1.2634131}
-    m_Translation: {x: 342.4562, y: 315.34198}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 342, y: 316.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -271.0564
-      y: -249.5953
-      width: 541.3906
-      height: 501.02377
+      x: -342
+      y: -316.5
+      width: 684
+      height: 633
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 684, y: 654}
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 24500000
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: c2e8ffff3eebffffdcf6ffff40f8fffff0f8ffff28f9ffff9af9ffff9cfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -12.243065, y: -88.95877, z: -19.273489}
+    m_Target: {x: 41.935974, y: 3.3523474, z: -2.195189}
     speed: 2
-    m_Value: {x: -12.243065, y: -88.95877, z: -19.273489}
+    m_Value: {x: 41.935974, y: 3.3523474, z: -2.195189}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,13 +507,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.32945454, y: -0.62181914, z: 0.32396993, w: 0.6323465}
+    m_Target: {x: 0.08070458, y: 0.91244817, z: -0.21925084, w: 0.33597472}
     speed: 2
-    m_Value: {x: 0.3294516, y: -0.6218136, z: 0.32396704, w: 0.63234085}
+    m_Value: {x: 0.081207424, y: 0.91210693, z: -0.22061653, w: 0.33584914}
   m_Size:
-    m_Target: 106.9509
+    m_Target: 3.3724163
     speed: 2
-    m_Value: 106.9509
+    m_Value: 3.0724163
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -584,14 +584,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Procedural Gen/Prefabs Facility
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Projects\GitHub\Facility\Facility
+  m_LastProjectPath: D:\Desktop\Files\Unity\Facility\Facility
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 57}
-    m_SelectedIDs: 003d0000
-    m_LastClickedID: 15616
-    m_ExpandedIDs: 00000000e83c0000f43c00003a3d000000ca9a3b
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: d2510000
+    m_LastClickedID: 20946
+    m_ExpandedIDs: 000000008c4e0000944e0000964e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e83c000000ca9a3b
+    m_ExpandedIDs: 000000008c4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
