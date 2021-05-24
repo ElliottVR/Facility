@@ -1,8 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using System;
 
-public class GameVariables : MonoBehaviour
+[Serializable]
+
+public static class GameVariables
 {
     public static bool CrossHairActive;
 }

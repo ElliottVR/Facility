@@ -1,97 +1,100 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 16193 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+D:\Program Files\Unity 2020\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/sawbl/Documents/GitHub/Facility/Facility
+D:/Unity Projects/GitHub/Facility/Facility
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50444
-Successfully changed project path to: C:/Users/sawbl/Documents/GitHub/Facility/Facility
-C:/Users/sawbl/Documents/GitHub/Facility/Facility
+51079
+Successfully changed project path to: D:/Unity Projects/GitHub/Facility/Facility
+D:/Unity Projects/GitHub/Facility/Facility
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/sawbl/Documents/GitHub/Facility/Facility/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2020/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/GitHub/Facility/Facility/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.5256
+    VRAM:     11049 MB
+    Driver:   27.21.14.6137
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Mono path[0] = 'D:/Program Files/Unity 2020/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2020/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity 2020/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001431 seconds.
+Register platform support module: D:/Program Files/Unity 2020/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001191 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
+- Completed reload, in  1.151 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000603 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1579.
-Total: 1.276100 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.041000 ms  DeleteObjects: 0.080800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Test.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07dd6d2d1cb55d9fca7a3db2b5cd35') in 0.013872 seconds
-  Import took 0.015446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.218989 seconds.
-  path: Assets/Scenes/Test.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07dd6d2d1cb55d9fca7a3db2b5cd35') in 0.002161 seconds
-  Import took 0.003851 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000526 seconds.
+Registered in 0.000751 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.916600 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.660300 ms  DeleteObjects: 0.053600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameVariables.cs
+  artifactKey: Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameVariables.cs using Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64252a1d204b75f2d8bb28bec6c18147') in 0.050665 seconds
+  Import took 0.052586 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.2 MB.
+System memory in use after: 35.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.353600 ms (FindLiveObjects: 0.101300 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.211500 ms  DeleteObjects: 0.009600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -100,38 +103,26 @@ System memory in use before: 57.7 MB.
 System memory in use after: 57.8 MB.
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 1.278900 ms (FindLiveObjects: 0.111100 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.123100 ms  DeleteObjects: 0.012000 ms)
+Total: 1.328100 ms (FindLiveObjects: 0.096500 ms CreateObjectMapping: 0.024200 ms MarkObjects: 1.193800 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.124972 seconds.
+  path: Assets/Scripts/GameVariables.cs
+  artifactKey: Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameVariables.cs using Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6b10d4ae99b726cc05f0480d2047e') in 0.003724 seconds
+  Import took 0.005073 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000502 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 1.222700 ms (FindLiveObjects: 0.111300 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.067100 ms  DeleteObjects: 0.011500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000795 seconds.
+Registered in 0.000822 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
+- Completed reload, in  0.637 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -139,16 +130,56 @@ Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1588.
-Total: 1.277300 ms (FindLiveObjects: 0.102600 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.124600 ms  DeleteObjects: 0.014200 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.482200 ms (FindLiveObjects: 0.092400 ms CreateObjectMapping: 0.025100 ms MarkObjects: 1.351600 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.856339 seconds.
+  path: Assets/Scripts/GameVariables.cs
+  artifactKey: Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameVariables.cs using Guid(a56fb855542e9bc4cb5a795413c30657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8453daecac641fde90610edb1fb57cff') in 0.003577 seconds
+  Import took 0.004910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.169333 seconds.
+  path: Assets/Scripts/PickupObject.cs
+  artifactKey: Guid(7a892c8793e65db45aff12ccebe4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickupObject.cs using Guid(7a892c8793e65db45aff12ccebe4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71520cb028dc5cdc03d78dd967f53e2b') in 0.002283 seconds
+  Import took 0.004065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027226 seconds.
+  path: Assets/Scripts/PickupObject.cs
+  artifactKey: Guid(7a892c8793e65db45aff12ccebe4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickupObject.cs using Guid(7a892c8793e65db45aff12ccebe4937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71520cb028dc5cdc03d78dd967f53e2b') in 0.002065 seconds
+  Import took 0.003596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572136 seconds.
+  path: Assets/Scripts/Generator.cs
+  artifactKey: Guid(f23012ba8501be74b9a3725f2322f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Generator.cs using Guid(f23012ba8501be74b9a3725f2322f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77636f7ddd74087a7a65bad9f364971e') in 0.002894 seconds
+  Import took 0.004459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.042526 seconds.
+  path: Assets/Scripts/Battery.cs
+  artifactKey: Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Battery.cs using Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1806fbec0c6041cecc01e81bde94ec') in 0.002316 seconds
+  Import took 0.003870 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000530 seconds.
+Registered in 0.000713 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.635 seconds
@@ -159,227 +190,2357 @@ Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1591.
-Total: 1.259600 ms (FindLiveObjects: 0.114800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.095300 ms  DeleteObjects: 0.012400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.457600 ms (FindLiveObjects: 0.106200 ms CreateObjectMapping: 0.024900 ms MarkObjects: 1.315000 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.645001 seconds.
+  path: Assets/DunGen
+  artifactKey: Guid(0de4da2cf4f7e8744839ab8a06ed529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DunGen using Guid(0de4da2cf4f7e8744839ab8a06ed529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9f96f267824fe0a98987c0ebb79742') in 0.004178 seconds
+  Import took 0.006091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003255 seconds.
+  path: Assets/DunGen
+  artifactKey: Guid(0de4da2cf4f7e8744839ab8a06ed529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DunGen using Guid(0de4da2cf4f7e8744839ab8a06ed529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9f96f267824fe0a98987c0ebb79742') in 0.002065 seconds
+  Import took 0.003631 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000462 seconds.
+Registered in 0.000699 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.786 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.8 MB.
+System memory in use after: 60.9 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1594.
-Total: 1.208500 ms (FindLiveObjects: 0.106900 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.054600 ms  DeleteObjects: 0.011000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.422200 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.255600 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.721225 seconds.
+  path: Assets/Standard Assets/DunGen/Integration
+  artifactKey: Guid(e1cf75306eadc8a4c8c90fb5878ddee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Integration using Guid(e1cf75306eadc8a4c8c90fb5878ddee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2118c2ef01c19e1401488f530d64df5') in 0.004259 seconds
+  Import took 0.005981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533544 seconds.
+  path: Assets/Standard Assets/DunGen/Code
+  artifactKey: Guid(cf4fdb2fb5564704dbc693a5da9c5ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code using Guid(cf4fdb2fb5564704dbc693a5da9c5ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6144c3645c0d1f6445dc1f5876b04efd') in 0.002255 seconds
+  Import took 0.003907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.378666 seconds.
+  path: Assets/Standard Assets/DunGen/Samples
+  artifactKey: Guid(0f069392f11c9794d9dc087020d4d765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples using Guid(0f069392f11c9794d9dc087020d4d765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f8e25f4d2a2fe817621b165be15857') in 0.002268 seconds
+  Import took 0.004005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963425 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic
+  artifactKey: Guid(58005c62314a35741b3610de71886002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic using Guid(58005c62314a35741b3610de71886002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307381fee2af01c0088b21f59b7de0da') in 0.002386 seconds
+  Import took 0.004149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033889 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample Dungeon.asset
+  artifactKey: Guid(642782ffcddad5a489ed5c9b6b2e7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample Dungeon.asset using Guid(642782ffcddad5a489ed5c9b6b2e7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd887e0186863033ab960bdc5195fc44') in 0.063642 seconds
+  Import took 0.067278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Keys.asset
+  artifactKey: Guid(9f569828028e8114d9cfc0b4a2f895dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Keys.asset using Guid(9f569828028e8114d9cfc0b4a2f895dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a507fad8ecee610df2ec03940933c26') in 0.003006 seconds
+  Import took 0.004407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.509021 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs
+  artifactKey: Guid(7d10f2c896795c84aaacca19a0b186a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs using Guid(7d10f2c896795c84aaacca19a0b186a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c8ab2dbf9c7822f73031febb76afe7') in 0.002138 seconds
+  Import took 0.003976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053674 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/AutoDoor.prefab
+  artifactKey: Guid(f769c5be5ac352b4d8ea7f3079d4231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/AutoDoor.prefab using Guid(f769c5be5ac352b4d8ea7f3079d4231d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4067b796c0466e1e6a5185b9d36ad565') in 0.178622 seconds
+  Import took 0.180453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Cube.prefab
+  artifactKey: Guid(b4ab2cc094b199941944cfa8940ddee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Cube.prefab using Guid(b4ab2cc094b199941944cfa8940ddee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95f5871e5b8ceb7b7f9d5b38fc277c2') in 0.010777 seconds
+  Import took 0.012410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/LockedDoor.prefab
+  artifactKey: Guid(d8db4f2af47a71542ac9505e69591bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/LockedDoor.prefab using Guid(d8db4f2af47a71542ac9505e69591bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce76f71a58920983f35f02d33e766c8') in 0.009266 seconds
+  Import took 0.011044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Player.prefab
+  artifactKey: Guid(bb1fedcf4a5762d48842cc7cf6df4121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Player.prefab using Guid(bb1fedcf4a5762d48842cc7cf6df4121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b05c8c68c1acd12dd4f7223a4e96f0c') in 0.005321 seconds
+  Import took 0.006947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Sphere.prefab
+  artifactKey: Guid(7b6dd21425eb5b84281934e2715664b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Sphere.prefab using Guid(7b6dd21425eb5b84281934e2715664b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b990b1175d10de229344fec738a84') in 0.008356 seconds
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Cylinder.prefab
+  artifactKey: Guid(a4acdd6d6ada34a45a67b3baf5c7131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Cylinder.prefab using Guid(a4acdd6d6ada34a45a67b3baf5c7131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838e4a66ac2f1a0805429433a3a0a3c6') in 0.015369 seconds
+  Import took 0.016922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Path-Based Prop Set.prefab
+  artifactKey: Guid(bd47c3b132fad5a46a584c247a2d7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Path-Based Prop Set.prefab using Guid(bd47c3b132fad5a46a584c247a2d7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d662e00ed27e32833893a5c96177fb') in 0.014212 seconds
+  Import took 0.015853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Depth-Based Prop Set.prefab
+  artifactKey: Guid(3c0bad592ae52fe49b8e9677960992f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Depth-Based Prop Set.prefab using Guid(3c0bad592ae52fe49b8e9677960992f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b044acdf64fe4b4ebde60d91fe837563') in 0.014935 seconds
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Key.prefab
+  artifactKey: Guid(9b0b8afdc5c788d4799a2cc110f39c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Key.prefab using Guid(9b0b8afdc5c788d4799a2cc110f39c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abce1f0b73ae4a6f8325e000887b3b5d') in 0.007997 seconds
+  Import took 0.009653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Shrine.prefab
+  artifactKey: Guid(28db83781d72d3848a34de9b72a35802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Shrine.prefab using Guid(28db83781d72d3848a34de9b72a35802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1357dd2eb00ae5d56f0807dbe9c90305') in 0.008063 seconds
+  Import took 0.009810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/RandomPrefab.prefab
+  artifactKey: Guid(5fd6099654d5c4e48973b12ff235f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/RandomPrefab.prefab using Guid(5fd6099654d5c4e48973b12ff235f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408a2ab31ee2d524d1d7476ce57945c8') in 0.004554 seconds
+  Import took 0.006369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001902 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Shrine.prefab
+  artifactKey: Guid(28db83781d72d3848a34de9b72a35802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Prefabs/Shrine.prefab using Guid(28db83781d72d3848a34de9b72a35802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1357dd2eb00ae5d56f0807dbe9c90305') in 0.012224 seconds
+  Import took 0.014000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.015908 seconds.
+  path: Assets/Standard Assets/DunGen/Code/DungeonFlowGraph
+  artifactKey: Guid(ddc0a6196788fe44788fc76720430d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/DungeonFlowGraph using Guid(ddc0a6196788fe44788fc76720430d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c3c87789f570427412bb78fbfe41a') in 0.002462 seconds
+  Import took 0.004405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.413180 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor
+  artifactKey: Guid(f77d91958d13e2140bdf46133cbe6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor using Guid(f77d91958d13e2140bdf46133cbe6383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa9c5edb0dfb0d31bdabbba050d019b') in 0.002327 seconds
+  Import took 0.004124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.817699 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Graph
+  artifactKey: Guid(e62b8ef8ad35a2247972db51ecddae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Graph using Guid(e62b8ef8ad35a2247972db51ecddae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a313e8857af4db6b19803824d793e4c0') in 0.002431 seconds
+  Import took 0.004228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.963792 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Utility
+  artifactKey: Guid(97e9e9b580b14ef449d32b54818ff2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Utility using Guid(97e9e9b580b14ef449d32b54818ff2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f02b334636ae1d29c7716bd40d402e3') in 0.002318 seconds
+  Import took 0.004123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.183643 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Analysis
+  artifactKey: Guid(4828abaed5f40e4438e6e4df278af5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Analysis using Guid(4828abaed5f40e4438e6e4df278af5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8073004e343503742bd23f342cf8451d') in 0.002730 seconds
+  Import took 0.004501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.857594 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Analysis/NumberSetData.cs
+  artifactKey: Guid(e896b74f1a8ef7142baf0548182d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Analysis/NumberSetData.cs using Guid(e896b74f1a8ef7142baf0548182d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d344561d8e9b74fce53bdb1cbf6de') in 0.002379 seconds
+  Import took 0.004064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002847 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Analysis/NumberSetData.cs
+  artifactKey: Guid(e896b74f1a8ef7142baf0548182d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Analysis/NumberSetData.cs using Guid(e896b74f1a8ef7142baf0548182d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d344561d8e9b74fce53bdb1cbf6de') in 0.002376 seconds
+  Import took 0.004261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.884831 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Graph/DungeonGraphConnection.cs
+  artifactKey: Guid(07450c29d661b2d4db63f1fe2b5d16bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Graph/DungeonGraphConnection.cs using Guid(07450c29d661b2d4db63f1fe2b5d16bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55852e326f7380f7bade60e761a2cc3') in 0.002384 seconds
+  Import took 0.004155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.276318 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Graph/DungeonGraph.cs
+  artifactKey: Guid(fdc49e9338f2f2f47b690c74d5dcc404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Graph/DungeonGraph.cs using Guid(fdc49e9338f2f2f47b690c74d5dcc404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6207f45de6c2020f8d8056e28982f9e7') in 0.002320 seconds
+  Import took 0.004138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.604851 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D
+  artifactKey: Guid(437a76d408179f048b9dd48b37ac67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D using Guid(437a76d408179f048b9dd48b37ac67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f5ecb7b472e3f6d4e5c3df80c51f6') in 0.003104 seconds
+  Import took 0.005056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D
+  artifactKey: Guid(437a76d408179f048b9dd48b37ac67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D using Guid(437a76d408179f048b9dd48b37ac67b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f5ecb7b472e3f6d4e5c3df80c51f6') in 0.002009 seconds
+  Import took 0.003681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034697 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Simple 2D Dungeon.asset
+  artifactKey: Guid(4aa4243f40448c64c8eae465fadbbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Simple 2D Dungeon.asset using Guid(4aa4243f40448c64c8eae465fadbbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f3d4f0a74bd198b3ea35b80d0f9849') in 0.007250 seconds
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.249933 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles
+  artifactKey: Guid(7b34423f8777bc6469906bdcab673aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles using Guid(7b34423f8777bc6469906bdcab673aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bcd42e5b48f51b77a0315d06f1e974') in 0.002271 seconds
+  Import took 0.004016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009591 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corner.prefab
+  artifactKey: Guid(52d230f4d60b827438b6932636d9e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corner.prefab using Guid(52d230f4d60b827438b6932636d9e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e2a6b19aa44bb2daa1ac5c7859e35d') in 0.013422 seconds
+  Import took 0.015508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corridor.prefab
+  artifactKey: Guid(d7166a43f3754da4bb65435491e21639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corridor.prefab using Guid(d7166a43f3754da4bb65435491e21639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191eaf75b8d6ee1d7dd8c22b5025f40f') in 0.013655 seconds
+  Import took 0.015665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Square Room.prefab
+  artifactKey: Guid(fd3d7361157fdfb498be3b5fdbadef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Square Room.prefab using Guid(fd3d7361157fdfb498be3b5fdbadef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0410620660dbacb5abf19e09d4dff15') in 0.011790 seconds
+  Import took 0.013755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corridor.prefab
+  artifactKey: Guid(d7166a43f3754da4bb65435491e21639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Corridor.prefab using Guid(d7166a43f3754da4bb65435491e21639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191eaf75b8d6ee1d7dd8c22b5025f40f') in 0.014543 seconds
+  Import took 0.017221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Square Room.prefab
+  artifactKey: Guid(fd3d7361157fdfb498be3b5fdbadef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Tiles/2D Square Room.prefab using Guid(fd3d7361157fdfb498be3b5fdbadef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0410620660dbacb5abf19e09d4dff15') in 0.013659 seconds
+  Import took 0.015661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.277224 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets
+  artifactKey: Guid(d6b5a09e360c3064fa205bba6d1087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets using Guid(d6b5a09e360c3064fa205bba6d1087ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ffbbaddad97dabe73abfc99d4ddc2') in 0.002286 seconds
+  Import took 0.003943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990590 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Boss Tiles.asset
+  artifactKey: Guid(5867a3b713c060e419b7ee3d128262bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Boss Tiles.asset using Guid(5867a3b713c060e419b7ee3d128262bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7004dc26bba9e6a1e4cab66b3c88fe6') in 0.004593 seconds
+  Import took 0.006524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Crypt Tiles.asset
+  artifactKey: Guid(d376ccafa6a8f9d4bae7c1b431d79539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Crypt Tiles.asset using Guid(d376ccafa6a8f9d4bae7c1b431d79539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf90b7979b46754200393bb8b4903738') in 0.007562 seconds
+  Import took 0.009902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Goal Tiles.asset
+  artifactKey: Guid(a79f34864b8431748aa2b5721781663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Goal Tiles.asset using Guid(a79f34864b8431748aa2b5721781663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa8a20593a85430bec3a56061020e44') in 0.004513 seconds
+  Import took 0.006481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Mini-Boss Tiles.asset
+  artifactKey: Guid(eba38cb505b2c274fb9bcfab93cb095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Mini-Boss Tiles.asset using Guid(eba38cb505b2c274fb9bcfab93cb095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9b79f38bbaee041d9daa13ebdb3e97') in 0.004538 seconds
+  Import took 0.006569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Castle Tiles.asset
+  artifactKey: Guid(8de6c6540b62d66408928902ef007035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Castle Tiles.asset using Guid(8de6c6540b62d66408928902ef007035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c160e5f04995e152067e243923d326c1') in 0.011956 seconds
+  Import took 0.014607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Special Tiles.asset
+  artifactKey: Guid(0ed294a566ed0214098259a8da3071fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Special Tiles.asset using Guid(0ed294a566ed0214098259a8da3071fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ba55cb6a3943ab57864b1e812c9a7') in 0.004261 seconds
+  Import took 0.006182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Cap Tiles.asset
+  artifactKey: Guid(ab4ac3eb401f5a645a8dcea30d64e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Cap Tiles.asset using Guid(ab4ac3eb401f5a645a8dcea30d64e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbab0454189119cd1031829d208dd1bc') in 0.003859 seconds
+  Import took 0.005630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Start Tiles.asset
+  artifactKey: Guid(7d1a4355e404338428349a370803fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tile Sets/Start Tiles.asset using Guid(7d1a4355e404338428349a370803fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d93f5a67af0490a38e26e715571626') in 0.004547 seconds
+  Import took 0.006450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.213948 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles
+  artifactKey: Guid(8bc61ccada10dbb4d940cd0f95d789ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles using Guid(8bc61ccada10dbb4d940cd0f95d789ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2405dac0d77b087bc23d8e098ed4eda4') in 0.002125 seconds
+  Import took 0.003852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065132 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Boss Room.prefab
+  artifactKey: Guid(79b7283221fe455428ce7696dee19c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Boss Room.prefab using Guid(79b7283221fe455428ce7696dee19c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c93628c9173bc48f26e0c334c6a0b4f') in 0.011403 seconds
+  Import took 0.013325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Goal Room.prefab
+  artifactKey: Guid(b484d4ba92d3f704287da4b791dba95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Goal Room.prefab using Guid(b484d4ba92d3f704287da4b791dba95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0160c9f93a2b12fef03d86f6cb34af7b') in 0.013952 seconds
+  Import took 0.015824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Mini-Boss Room.prefab
+  artifactKey: Guid(358787cc9cade1042b66bc29345e825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Mini-Boss Room.prefab using Guid(358787cc9cade1042b66bc29345e825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5e8bfd7bab37dfe5a530f4bee0e38f') in 0.016260 seconds
+  Import took 0.018165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Start Room.prefab
+  artifactKey: Guid(f63507c37d6d6ac4ea09cdae63f91200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Start Room.prefab using Guid(f63507c37d6d6ac4ea09cdae63f91200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154208d585b59486f7ea0089e46d7956') in 0.012273 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/BranchCap.prefab
+  artifactKey: Guid(8a3ad7f32fde042499f389956004f522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/BranchCap.prefab using Guid(8a3ad7f32fde042499f389956004f522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92d09946a447e98d6cef4a722e1eee8') in 0.015997 seconds
+  Import took 0.017782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Special.prefab
+  artifactKey: Guid(8630ba0c71381684e8e53bccdaa59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Special.prefab using Guid(8630ba0c71381684e8e53bccdaa59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ea2a1f9f0b4bffbb7ff233f33c9d9a') in 0.015663 seconds
+  Import took 0.017421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.748181 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt
+  artifactKey: Guid(f512c2fcfd0e86a4fa3c6c6cbab58fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt using Guid(f512c2fcfd0e86a4fa3c6c6cbab58fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8392b8816f516c621934914a81cc4') in 0.002301 seconds
+  Import took 0.004184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549937 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Corridor.prefab
+  artifactKey: Guid(81f3cee2bfd527a45bf1957c732209c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Corridor.prefab using Guid(81f3cee2bfd527a45bf1957c732209c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a1b8ee3cc8f598c8392bb89d48ff1c') in 0.010641 seconds
+  Import took 0.012663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Square Room.prefab
+  artifactKey: Guid(d605eace6e3e31d4b84159e9b62dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Square Room.prefab using Guid(d605eace6e3e31d4b84159e9b62dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd49cd16276d168efbf2c3b621577d67') in 0.015364 seconds
+  Import took 0.017663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Downstairs.prefab
+  artifactKey: Guid(16096eeac6d55a9449a38288a1057b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Downstairs.prefab using Guid(16096eeac6d55a9449a38288a1057b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f038dcb4841ef7cc17b16a10ddbc80cb') in 0.015605 seconds
+  Import took 0.017404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Upstairs.prefab
+  artifactKey: Guid(1a48a4b824addc1419cfe2ccc600cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Upstairs.prefab using Guid(1a48a4b824addc1419cfe2ccc600cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aef9ca37a9b3b9de69f5c90fa2edf7a') in 0.015428 seconds
+  Import took 0.017164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/L-Room.prefab
+  artifactKey: Guid(7042136f7ee48d542b3d78065703ddd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/L-Room.prefab using Guid(7042136f7ee48d542b3d78065703ddd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ec041ba0fdf0bd5d341c2e20c3e43d') in 0.013422 seconds
+  Import took 0.015503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Upstairs.prefab
+  artifactKey: Guid(1a48a4b824addc1419cfe2ccc600cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Tiles/Crypt/Upstairs.prefab using Guid(1a48a4b824addc1419cfe2ccc600cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aef9ca37a9b3b9de69f5c90fa2edf7a') in 0.013516 seconds
+  Import took 0.015426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.743958 seconds.
+  path: Assets/Facility Tiles
+  artifactKey: Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles using Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119323fd0bfdc3710eb607ffdf8934a1') in 0.002310 seconds
+  Import took 0.004059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.222684 seconds.
+  path: Assets/Models/Halls and Rooms
+  artifactKey: Guid(4e611837e95d35d4cbf6e6de0263705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms using Guid(4e611837e95d35d4cbf6e6de0263705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13adc3aeb0d8f4568209048d7eda65ea') in 0.002618 seconds
+  Import took 0.004470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055383 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.001.fbx
+  artifactKey: Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.001.fbx using Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588235549476c44e734828029e42193d') in 0.101583 seconds
+  Import took 0.103537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Models/Halls and Rooms/Hub.002.fbx
+  artifactKey: Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hub.002.fbx using Guid(911a298fd99cded4886f59c9a538d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf4f63c5eefe5088f4234112c6ec15f') in 0.085228 seconds
+  Import took 0.087361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Halls and Rooms/Hub.001.fbx
+  artifactKey: Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hub.001.fbx using Guid(0095c4a71f1505d479b11c637f7fa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8877528ec8bcb13cc47a8439c3442569') in 0.091713 seconds
+  Import took 0.094205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.003.fbx
+  artifactKey: Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.003.fbx using Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d03e010c07d5f6bd81dbeebfe27c50') in 0.048602 seconds
+  Import took 0.050349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.002.fbx
+  artifactKey: Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.002.fbx using Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f313b7927dd681f866169220f2c4eca2') in 0.046955 seconds
+  Import took 0.048648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.004.fbx
+  artifactKey: Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.004.fbx using Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4136fedf0bc1bb6d48d7c109fcb4c8f') in 0.054876 seconds
+  Import took 0.056604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69f2cd7477f8dc922d1ea876582ce6a') in 0.020826 seconds
+  Import took 0.022488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Models/Halls and Rooms/Hub.003.fbx
+  artifactKey: Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hub.003.fbx using Guid(f03b98dba4b95a3479e63ae49f37a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b8c89b1f232687780f13fddc3ff48') in 0.129303 seconds
+  Import took 0.132248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.586893 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex
+  artifactKey: Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex using Guid(0d3ea5811cf9ccc4eba209e39168b25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d2c02000b220ed3eca374aa10b115c') in 0.002654 seconds
+  Import took 0.004929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540032 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 1.mat
+  artifactKey: Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 1.mat using Guid(475f5a22a7d9eff41a23ffcde084ae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0630acc2e6c43fc76047f88066751e') in 0.068439 seconds
+  Import took 0.070386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 5.mat
+  artifactKey: Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 5.mat using Guid(73d02a3811986ab449f0cdf5ca19c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c03036ef40c8ef3b7180353777177f') in 0.011397 seconds
+  Import took 0.013229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 4.mat
+  artifactKey: Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 4.mat using Guid(4075f0d9025a2b54e9979b9cdfb82782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691828c287c5657517a8fff10318e4ee') in 0.020570 seconds
+  Import took 0.022255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 2.mat
+  artifactKey: Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 2.mat using Guid(e8a37021a9d3a9c4186af47e8bc4f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab5951e3394b658f3585f86716bba63') in 0.012974 seconds
+  Import took 0.014652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9125465cb0e414c95fd09bf87494291d') in 0.011821 seconds
+  Import took 0.013588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.195045 seconds.
+  path: Assets/Models/Chair
+  artifactKey: Guid(4a55c6c896b65574392b26987756fba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chair using Guid(4a55c6c896b65574392b26987756fba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8025ab117c593f801b1f61d9f9c625d') in 0.002317 seconds
+  Import took 0.003991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.607995 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex
+  artifactKey: Guid(06d0e2628616b4a469023d1506d8d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex using Guid(06d0e2628616b4a469023d1506d8d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54078163357f88d7e687be8e73ff38') in 0.002372 seconds
+  Import took 0.004121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043023 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png
+  artifactKey: Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png using Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947138c4923198a102d7d88882f7e8b5') in 0.025273 seconds
+  Import took 0.027189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 1.png
+  artifactKey: Guid(6aaed9707b02e0a4f8b3a197a3750e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 1.png using Guid(6aaed9707b02e0a4f8b3a197a3750e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2dd1a51f74761fe477fe7734307455') in 0.012282 seconds
+  Import took 0.014112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/door_single_Albedo.tga
+  artifactKey: Guid(fb23eed45eeb0da4c8604d5387b40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/door_single_Albedo.tga using Guid(fb23eed45eeb0da4c8604d5387b40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3bb8bc214824f3e06c3e300bdd6b2d') in 0.014049 seconds
+  Import took 0.015892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Screen.mat
+  artifactKey: Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Screen.mat using Guid(822c72ea323e76542a90e0b86687b6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fe84f93471ef94f832297c918c9011') in 0.009018 seconds
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_frame.mat
+  artifactKey: Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_frame.mat using Guid(f3806477f211c6c4fbed34b5f9124de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ddd6ce2502b77f6f66433ddc7f4043') in 0.012856 seconds
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Chair1_wood.mat
+  artifactKey: Guid(2d3ba7f212aead645ae6c3722079aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Chair1_wood.mat using Guid(2d3ba7f212aead645ae6c3722079aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb29e918152777d657a0e0bee93da493') in 0.008897 seconds
+  Import took 0.010768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Couch1.mat
+  artifactKey: Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Couch1.mat using Guid(46508ad59ad3b7145acc00d3ea86d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013386222a3169136fd51c44db0bb4c') in 0.008772 seconds
+  Import took 0.010464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 4.png
+  artifactKey: Guid(01ce9fc153ed646479867493de6cc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 4.png using Guid(01ce9fc153ed646479867493de6cc76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b32a78c9d738b43e1939a7253dc484') in 0.011650 seconds
+  Import took 0.013333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 2.png
+  artifactKey: Guid(c15db71c3235e3e42b4f520a5221dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 2.png using Guid(c15db71c3235e3e42b4f520a5221dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf763c89a49c81242f5a49d44df1251') in 0.134013 seconds
+  Import took 0.135613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/props_Albedo.tga
+  artifactKey: Guid(db13eb83aec863c478eda1fe2e5653d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/props_Albedo.tga using Guid(db13eb83aec863c478eda1fe2e5653d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff645f859846109864a06e6b28af14c') in 0.009085 seconds
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Tex.details 8000.jpg
+  artifactKey: Guid(28d8d83914985b045982cf3e04b507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Tex.details 8000.jpg using Guid(28d8d83914985b045982cf3e04b507c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ce01fd524c409912c813e974a6d028') in 0.011352 seconds
+  Import took 0.013000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/tex casing.jpg
+  artifactKey: Guid(0c328a9045497244f82020539aca8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/tex casing.jpg using Guid(0c328a9045497244f82020539aca8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbd992f5362696e3a85b7d95f38a4ef') in 0.015071 seconds
+  Import took 0.016853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting chairs UV.png
+  artifactKey: Guid(1c798c04ec7b6f5428709100c49bc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting chairs UV.png using Guid(1c798c04ec7b6f5428709100c49bc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01601285bd32123a07e80a51233345') in 0.056692 seconds
+  Import took 0.058438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 5.png
+  artifactKey: Guid(59058aa67547a7f409fa264e76b9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 5.png using Guid(59058aa67547a7f409fa264e76b9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d0f42f2b608ba3571ed8c0cecb07cd') in 0.086334 seconds
+  Import took 0.087879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png
+  artifactKey: Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/beige_fabric_08_diffuse.png using Guid(9f1afdb870e3e75419bc756e8a7fac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947138c4923198a102d7d88882f7e8b5') in 0.011261 seconds
+  Import took 0.012827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_props.mat
+  artifactKey: Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_props.mat using Guid(b890f2461e0392141ada12369d973205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5c921b1ca810953b3d9ece6fde96b') in 0.010714 seconds
+  Import took 0.012450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/wood_1_090_diffuse.png
+  artifactKey: Guid(4c43fce2271f747449ff54dfd0aa2e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/wood_1_090_diffuse.png using Guid(4c43fce2271f747449ff54dfd0aa2e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bfda924fc7443672758510f0033c1e') in 0.010466 seconds
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Chair1_fabric.mat
+  artifactKey: Guid(994daea0c9cdf7d4596f4712c54bc6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Chair1_fabric.mat using Guid(994daea0c9cdf7d4596f4712c54bc6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171f52a9d83023697cd247cffa12a7bd') in 0.012533 seconds
+  Import took 0.014908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_single.mat
+  artifactKey: Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Door_single.mat using Guid(120c66cc19f113c4180254d4e82684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94be2c866414161de1b946c0338dcea3') in 0.014558 seconds
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Ceiling.mat
+  artifactKey: Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Ceiling.mat using Guid(2d921e84b077bf74db4b76f95bef158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01433660dd012bcdcb7a2480e44d3828') in 0.013944 seconds
+  Import took 0.015678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Tex.details II.jpg
+  artifactKey: Guid(548c0822b8ef0a14691735b88b710078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Tex.details II.jpg using Guid(548c0822b8ef0a14691735b88b710078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36903a8d8320adee14cf0b5af32f97be') in 0.015535 seconds
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 3.png
+  artifactKey: Guid(2eb84494f0c82f74ca96d272796dab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Wallpaper 3.png using Guid(2eb84494f0c82f74ca96d272796dab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc08134787a1a7a79c92b61ad99cde5') in 0.015189 seconds
+  Import took 0.017346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/frame_Albedo.tga
+  artifactKey: Guid(b8e8873a86b1dc145a8c1b8f98b442ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/frame_Albedo.tga using Guid(b8e8873a86b1dc145a8c1b8f98b442ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afae5cb7742c09e394ff27293a7a86d') in 0.012406 seconds
+  Import took 0.014071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat
+  artifactKey: Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat using Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf22146ea81087b96d1e0720612c26') in 0.013198 seconds
+  Import took 0.015026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Couch1_UV 1.png
+  artifactKey: Guid(8ab60d5fdf1e718479496c666f686361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Couch1_UV 1.png using Guid(8ab60d5fdf1e718479496c666f686361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684f5f0a74c986b528efc4a88d91ac3c') in 0.009119 seconds
+  Import took 0.010839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.583083 seconds.
+  path: Assets/Facility Tiles/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaef88c0e0b44c22c2e54adaf6d9977b') in 0.034550 seconds
+  Import took 0.037313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.394290 seconds.
+  path: Assets/Facility Tiles/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3856fef8b98446a22ba62e2503d0e060') in 0.030100 seconds
+  Import took 0.032600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.407078 seconds.
+  path: Assets/Facility Tiles/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7399563fb385839396936f38d5cdcc') in 0.034002 seconds
+  Import took 0.036865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.284781 seconds.
+  path: Assets/Facility Tiles/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86cff1222f1373b49dd367f948b9fd') in 0.032440 seconds
+  Import took 0.034917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.338506 seconds.
+  path: Assets/Facility Tiles/Hub.003.prefab
+  artifactKey: Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hub.003.prefab using Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445fbcdfc9ffe1e679b9fc50cc53420e') in 0.049079 seconds
+  Import took 0.052372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.171183 seconds.
+  path: Assets/Facility Tiles/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e2cabd32422eb71909c116faf3f381') in 0.014850 seconds
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006066 seconds.
+  path: Assets/Facility Tiles/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e2cabd32422eb71909c116faf3f381') in 0.015490 seconds
+  Import took 0.017642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.460238 seconds.
+  path: Assets/Facility Tiles/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06530c78ec36acf2514688c68c17fdfc') in 0.021629 seconds
+  Import took 0.023833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006375 seconds.
+  path: Assets/Facility Tiles/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06530c78ec36acf2514688c68c17fdfc') in 0.023769 seconds
+  Import took 0.025851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.537618 seconds.
+  path: Assets/Facility Tiles/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7ef9d857210f972ca14142cba24a13') in 0.022755 seconds
+  Import took 0.024962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008067 seconds.
+  path: Assets/Facility Tiles/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7ef9d857210f972ca14142cba24a13') in 0.023834 seconds
+  Import took 0.026383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.723338 seconds.
+  path: Assets/Facility Tiles/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac2609dcf1fbaacffe7206c009a7989') in 0.022804 seconds
+  Import took 0.025036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010752 seconds.
+  path: Assets/Facility Tiles/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac2609dcf1fbaacffe7206c009a7989') in 0.028799 seconds
+  Import took 0.030944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.275637 seconds.
+  path: Assets/Facility Tiles/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3246d57216bb79742e6d42d5bac4c437') in 0.014071 seconds
+  Import took 0.016059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005716 seconds.
+  path: Assets/Facility Tiles/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Facility Tiles/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3246d57216bb79742e6d42d5bac4c437') in 0.021744 seconds
+  Import took 0.024026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.524120 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Analysis Scene.unity
+  artifactKey: Guid(63632a1a1f94bc34da901057817c6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Analysis Scene.unity using Guid(63632a1a1f94bc34da901057817c6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89a6fb6335aa9632813dbded36f9c0') in 0.002966 seconds
+  Import took 0.004722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.711199 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample.unity
+  artifactKey: Guid(9909ff5e78cc347408678d2df052d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample.unity using Guid(9909ff5e78cc347408678d2df052d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd361fdec10baf8c8352e9bba9387536b') in 0.002648 seconds
+  Import took 0.004485 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000488 seconds.
+Registered in 0.000709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1755.
+Total: 1.395100 ms (FindLiveObjects: 0.116800 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.225300 ms  DeleteObjects: 0.019800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.964145 seconds.
+  path: Assets/Procedural Gen
+  artifactKey: Guid(e686ca7316769874db71fd3e372e0b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen using Guid(e686ca7316769874db71fd3e372e0b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a10feae10af78bfba5632feed1756d') in 0.003890 seconds
+  Import took 0.005503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.913579 seconds.
+  path: Assets/Standard Assets/DunGen/Readme.pdf
+  artifactKey: Guid(037fdd687c1a6e14eabfa1f561b4bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Readme.pdf using Guid(037fdd687c1a6e14eabfa1f561b4bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9832e497e05bb524d67c36378b739a9c') in 0.013300 seconds
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.359812 seconds.
+  path: Assets/Procedural Gen/Facility.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1fc87db898ba807a2b33ce37484ff1') in 0.003955 seconds
+  Import took 0.006072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001415 seconds.
+  path: Assets/Procedural Gen/Facility.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1fc87db898ba807a2b33ce37484ff1') in 0.003265 seconds
+  Import took 0.005522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.913083 seconds.
+  path: Assets/Procedural Gen/Facility Prefabs
+  artifactKey: Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Prefabs using Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02de23376df572eb818f86266d8836f6') in 0.002475 seconds
+  Import took 0.004493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.897489 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf89cb1a51534bd4e1cb49733254948') in 0.002539 seconds
+  Import took 0.004642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003359 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf89cb1a51534bd4e1cb49733254948') in 0.002481 seconds
+  Import took 0.004328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.542530 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb042c8f77736412a544224ef87f5de') in 0.021569 seconds
+  Import took 0.024401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2559.912833 seconds.
+  path: Assets/Procedural Gen/Archetype.asset
+  artifactKey: Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Archetype.asset using Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a90862c691f033f7891a926bd5067') in 0.003805 seconds
+  Import took 0.005815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.867897 seconds.
+  path: Assets/Procedural Gen/Facility Archetype.asset
+  artifactKey: Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Archetype.asset using Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05daea50cff3eb6b7e0cd3b45b1f67c') in 0.020990 seconds
+  Import took 0.023434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.745036 seconds.
+  path: Assets/Procedural Gen/Archetype.asset
+  artifactKey: Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Archetype.asset using Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1077200487f4556a6d9dffb40073dd') in 0.020757 seconds
+  Import took 0.023947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.819331 seconds.
+  path: Assets/Procedural Gen/Facility Flow.asset
+  artifactKey: Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Flow.asset using Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589244e21fb71146542e1616c3d4ce08') in 0.006890 seconds
+  Import took 0.008764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Procedural Gen/Facility Flow.asset
+  artifactKey: Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Flow.asset using Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589244e21fb71146542e1616c3d4ce08') in 0.002610 seconds
+  Import took 0.004296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.762472 seconds.
+  path: Assets/Procedural Gen/Start Tiles.asset
+  artifactKey: Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Start Tiles.asset using Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61378b86874ff5447b5c56b665b0e7d8') in 0.003002 seconds
+  Import took 0.005322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002537 seconds.
+  path: Assets/Procedural Gen/Start Tiles.asset
+  artifactKey: Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Start Tiles.asset using Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61378b86874ff5447b5c56b665b0e7d8') in 0.002652 seconds
+  Import took 0.004542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.591422 seconds.
+  path: Assets/Procedural Gen/Archetype - Facility.asset
+  artifactKey: Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Archetype - Facility.asset using Guid(e979d47e0950f2d4d8350d3ba7e5a367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae9a636db50b7ca5abc96e7b4aaf850') in 0.019638 seconds
+  Import took 0.022445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.019208 seconds.
+  path: Assets/Procedural Gen/Facility Flow.asset
+  artifactKey: Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Flow.asset using Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb145fff2792b0f74ce2dec1187e42d') in 0.017388 seconds
+  Import took 0.020070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Procedural Gen/Start Tiles.asset
+  artifactKey: Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Start Tiles.asset using Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754707eb396877c23c42ddf1c4f92ae6') in 0.012247 seconds
+  Import took 0.014474 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1759.
+Total: 1.339500 ms (FindLiveObjects: 0.107400 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.188600 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2295.101455 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility
+  artifactKey: Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility using Guid(49c169c04be0879449e1449a79538d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10253cdae17cd4a3b5c60d48dac5026') in 0.005300 seconds
+  Import took 0.007684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217013 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9138891cfc439faa4d0385f10b9e3c1') in 0.071126 seconds
+  Import took 0.073720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d6836e8b5c0871ddb04a6e1a638f58') in 0.022446 seconds
+  Import took 0.024621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab
+  artifactKey: Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab using Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bd7c59520a93d7f13e073cf6cc970f') in 0.034475 seconds
+  Import took 0.037803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.324568 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8357eb78be1f809896d50b9f5f4e008') in 0.035441 seconds
+  Import took 0.038104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.537105 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dff9f2aa7343710042e126cbff1a05') in 0.028637 seconds
+  Import took 0.031600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371891 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ac5478d86ff71817bdec8d0643681') in 0.018130 seconds
+  Import took 0.020250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.726280 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4016c712862363dbcc04fea0552004c2') in 0.030961 seconds
+  Import took 0.032895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.277429 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/DungeonCrawler.unitypackage
+  artifactKey: Guid(71e0bb670d9509846a5ae945d537e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/DungeonCrawler.unitypackage using Guid(71e0bb670d9509846a5ae945d537e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87face283ab7466abf37bd8c604c67df') in 0.005950 seconds
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/DungeonCrawler.unitypackage
+  artifactKey: Guid(71e0bb670d9509846a5ae945d537e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/DungeonCrawler.unitypackage using Guid(71e0bb670d9509846a5ae945d537e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87face283ab7466abf37bd8c604c67df') in 0.002890 seconds
+  Import took 0.004704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.127862 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample Dungeon.asset
+  artifactKey: Guid(642782ffcddad5a489ed5c9b6b2e7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Basic Sample Dungeon.asset using Guid(642782ffcddad5a489ed5c9b6b2e7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c07253a105cc042fabf13f6ba6bf05') in 0.041713 seconds
+  Import took 0.045444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 708.068204 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f2a759085844841b65bdc7145f6bb') in 0.036593 seconds
+  Import took 0.039525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.713441 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23835b4f0027ee6d0b53bdb3f02b65c7') in 0.026884 seconds
+  Import took 0.030190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23835b4f0027ee6d0b53bdb3f02b65c7') in 0.028971 seconds
+  Import took 0.031322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.871162 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c96d840e28f49b5709b389c0ab9309b') in 0.018135 seconds
+  Import took 0.020167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812534 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e4bf7fdfdc01a7cb67f3137253f68') in 0.022436 seconds
+  Import took 0.024427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002088 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e4bf7fdfdc01a7cb67f3137253f68') in 0.024191 seconds
+  Import took 0.026216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.873269 seconds.
+  path: Assets/Materials/Test.mat
+  artifactKey: Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test.mat using Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0231ddfaf96163133f09533ca4c2cc') in 0.021458 seconds
+  Import took 0.023762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002250 seconds.
+  path: Assets/Materials/Test.mat
+  artifactKey: Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test.mat using Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0231ddfaf96163133f09533ca4c2cc') in 0.007824 seconds
+  Import took 0.009684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.067917 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Blocker.prefab
+  artifactKey: Guid(3f57d93e2cc578b48b00052f198ae07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Blocker.prefab using Guid(3f57d93e2cc578b48b00052f198ae07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b768b35e7ddfa3d045534b03f0de8b43') in 0.011343 seconds
+  Import took 0.013446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010981 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Blocker.prefab
+  artifactKey: Guid(3f57d93e2cc578b48b00052f198ae07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Blocker.prefab using Guid(3f57d93e2cc578b48b00052f198ae07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b768b35e7ddfa3d045534b03f0de8b43') in 0.009135 seconds
+  Import took 0.011700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.977138 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eea4b9718ef82ef0b4a980012f5e36') in 0.032013 seconds
+  Import took 0.034785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.639903 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f3d6b0c1824edca7c7b007887ba3b5') in 0.031635 seconds
+  Import took 0.034616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.637061 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38239a420726fe2222c922ac5a9ffa70') in 0.017945 seconds
+  Import took 0.019871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.826411 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660c4a90af7dc14c9f4984ce57eecc34') in 0.022172 seconds
+  Import took 0.024179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1765.
+Total: 1.346100 ms (FindLiveObjects: 0.105400 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.195600 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.078168 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e5ecec60a060b47f2def1466cbfb38') in 0.064776 seconds
+  Import took 0.067078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c6c3c94bd4ca1dab53052f696aefb2') in 0.018398 seconds
+  Import took 0.020175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0e213af6fa71ed2184b5ae1d77bc4') in 0.017082 seconds
+  Import took 0.018898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0251cecfd2f586663ca5350ecfc70178') in 0.011931 seconds
+  Import took 0.013608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a7dea566fde95f595d6e9b6e1e8863') in 0.016821 seconds
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c5fad7f5bd6ef19235e7aa545823ea') in 0.012568 seconds
+  Import took 0.014240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001365 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c5fad7f5bd6ef19235e7aa545823ea') in 0.012581 seconds
+  Import took 0.014429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.119047 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0af13677430690044619bfeb00f2cb') in 0.012775 seconds
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Procedural Gen/Start Tiles.asset
+  artifactKey: Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Start Tiles.asset using Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b24223e5d996686a49b5645fc75ebb1') in 0.010915 seconds
+  Import took 0.012864 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 1.359400 ms (FindLiveObjects: 0.108000 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.206900 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.477049 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae534cb5b74b57dc1a1c347c27bcdd72') in 0.023942 seconds
+  Import took 0.025900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.059830 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8d9c7a85e8ca8dd95988f0dcd48387') in 0.060680 seconds
+  Import took 0.063934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.849906 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53da8899c37c3dd9e3448f92286089d') in 0.028952 seconds
+  Import took 0.031352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001484 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53da8899c37c3dd9e3448f92286089d') in 0.031111 seconds
+  Import took 0.033440 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 1.358700 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.215300 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.272528 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ef8731a77d120f3be834d9edf7f567') in 0.068045 seconds
+  Import took 0.070678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.839627 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7855834471d032690abb43a9ad7526da') in 0.025678 seconds
+  Import took 0.028103 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1597.
-Total: 1.235700 ms (FindLiveObjects: 0.107400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.082000 ms  DeleteObjects: 0.010000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1780.
+Total: 1.785500 ms (FindLiveObjects: 0.231300 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.473200 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.533669 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Basic/Scripts/PlayerInventory.cs
+  artifactKey: Guid(b2ba15d7f869b124cb22365a6ec30f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Basic/Scripts/PlayerInventory.cs using Guid(b2ba15d7f869b124cb22365a6ec30f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694fda65588f2fd2ef7acc5dbe5ecacb') in 0.004135 seconds
+  Import took 0.006129 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000811 seconds.
+Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.632 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.9 MB.
+System memory in use after: 66.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1600.
-Total: 1.238000 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.078200 ms  DeleteObjects: 0.009600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1784.
+Total: 1.491600 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.331000 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 430.635043 seconds.
+  path: Assets/Standard Assets/DunGen/Code/DungenCharacter.cs
+  artifactKey: Guid(d6f2c37269921db4aa0dddf94b652f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/DungenCharacter.cs using Guid(d6f2c37269921db4aa0dddf94b652f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf1a38a6f19b840651e09675a26fe50') in 0.004039 seconds
+  Import took 0.005804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023783 seconds.
+  path: Assets/Standard Assets/DunGen/Code/DungenCharacter.cs
+  artifactKey: Guid(d6f2c37269921db4aa0dddf94b652f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/DungenCharacter.cs using Guid(d6f2c37269921db4aa0dddf94b652f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf1a38a6f19b840651e09675a26fe50') in 0.002082 seconds
+  Import took 0.003846 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000511 seconds.
+Registered in 0.000823 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.235700 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.090200 ms  DeleteObjects: 0.009300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 1.566400 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.391100 ms  DeleteObjects: 0.014200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000514 seconds.
+Registered in 0.000725 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.634 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1792.
+Total: 1.597700 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.433200 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.575200 ms (FindLiveObjects: 0.118100 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.407900 ms  DeleteObjects: 0.011800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1796.
+Total: 1.514200 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.307500 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 740.385258 seconds.
+  path: Assets/Standard Assets/Characters
+  artifactKey: Guid(8c32f58513a41ef4dab9cb7704c5fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters using Guid(8c32f58513a41ef4dab9cb7704c5fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed30adbe8a1c3b5a1936a139fc95024') in 0.005258 seconds
+  Import took 0.007457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Standard Assets/Characters
+  artifactKey: Guid(8c32f58513a41ef4dab9cb7704c5fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters using Guid(8c32f58513a41ef4dab9cb7704c5fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed30adbe8a1c3b5a1936a139fc95024') in 0.002071 seconds
+  Import took 0.003841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.977497 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9086db11b59aae515313bdae47ea46') in 0.026508 seconds
+  Import took 0.028494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+  artifactKey: Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab using Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e23c4f5963c1b6b66a73e0513622f08') in 0.004422 seconds
+  Import took 0.006102 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000451 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.292200 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.125100 ms  DeleteObjects: 0.010400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000484 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.253000 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.098500 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000443 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.273400 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.120900 ms  DeleteObjects: 0.011100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000934 seconds.
+Registered in 0.000783 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1800.
+Total: 1.342400 ms (FindLiveObjects: 0.108100 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.190600 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.441738 seconds.
+  path: Assets/Procedural Gen/Facility Flow.asset
+  artifactKey: Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Flow.asset using Guid(b057311bc19ed6b49aad75446675b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f7a331588f3a496b03a9144293759a') in 0.046898 seconds
+  Import took 0.048920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
 - Completed reload, in  0.657 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.220200 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.067900 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000511 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.244700 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.098200 ms  DeleteObjects: 0.009700 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1804.
+Total: 1.321000 ms (FindLiveObjects: 0.107000 ms CreateObjectMapping: 0.026700 ms MarkObjects: 1.172900 ms  DeleteObjects: 0.013800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000516 seconds.
+Registered in 0.000812 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.641 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.9 MB.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.232600 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.075200 ms  DeleteObjects: 0.009900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 1.330700 ms (FindLiveObjects: 0.112000 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.175200 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1039.892256 seconds.
+  path: Assets/Procedural Gen/Start Tiles.asset
+  artifactKey: Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Start Tiles.asset using Guid(ea1609ec908af6b4d804c1e6031923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d031fc293dff4fbb05d4a3c07c7d2e') in 0.023588 seconds
+  Import took 0.025499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1812.
+Total: 1.515600 ms (FindLiveObjects: 0.105800 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.368000 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1816.
+Total: 1.442800 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.284500 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 1.388300 ms (FindLiveObjects: 0.112200 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.232900 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 1.342900 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.178900 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1828.
+Total: 1.323900 ms (FindLiveObjects: 0.109300 ms CreateObjectMapping: 0.027900 ms MarkObjects: 1.172200 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 605.581017 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f288d3ae3ad6d5818c94986665f756f8') in 0.083634 seconds
+  Import took 0.086367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.118465 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8571ebb1435a3509279679f11dc3b9b2') in 0.031556 seconds
+  Import took 0.034063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001908 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8571ebb1435a3509279679f11dc3b9b2') in 0.029998 seconds
+  Import took 0.032490 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 1.459900 ms (FindLiveObjects: 0.111200 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.304500 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.676172 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d9b985504e963ea37d607e5ed6a38') in 0.070564 seconds
+  Import took 0.073335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.705637 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4589f07a13af080ad5bdc265ba6642bc') in 0.035066 seconds
+  Import took 0.037898 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 1.346100 ms (FindLiveObjects: 0.104500 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.200800 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.536648 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab
+  artifactKey: Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.001.prefab using Guid(a6351346fe6b53947a88cc19ab34555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803a6f60a69cbdfb2ea613cc92542064') in 0.069484 seconds
+  Import took 0.072038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807345 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab
+  artifactKey: Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.002.prefab using Guid(9c5a30cd220d27143a9565b8be569a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19998d11b00e8aab8d85722366e15b05') in 0.026484 seconds
+  Import took 0.029082 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 1.370300 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.206900 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+DunGen.DunGenSettings:GetOrCreateInstance () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:36)
+DunGen.DunGenSettings:Initialize () (at Assets/Standard Assets/DunGen/Code/DunGenSettings.cs:58)
+
+[Assets/Standard Assets/DunGen/Code/DunGenSettings.cs line 36]
+
+UnityException: Creating asset at path Assets/Resources/DunGen Settings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at DunGen.DunGenSettings.GetOrCreateInstance () [0x00059] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:36 
+  at DunGen.DunGenSettings.Initialize () [0x00000] in D:\Unity Projects\GitHub\Facility\Facility\Assets\Standard Assets\DunGen\Code\DunGenSettings.cs:58 
+
+(Filename: Assets/Standard Assets/DunGen/Code/DunGenSettings.cs Line: 36)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.1 MB.
+System memory in use after: 66.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 1.603800 ms (FindLiveObjects: 0.114700 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.445900 ms  DeleteObjects: 0.014100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
