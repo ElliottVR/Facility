@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 32640 MB
+OS: 'Windows 10 Home; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 16253 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,167 +11,771 @@ C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/Unity Project Folders/GitHub/Facility/Facility
+D:/Desktop/Files/Unity/Facility/Facility
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62770
-Successfully changed project path to: E:/Unity Project Folders/GitHub/Facility/Facility
-E:/Unity Project Folders/GitHub/Facility/Facility
+60923
+Successfully changed project path to: D:/Desktop/Files/Unity/Facility/Facility
+D:/Desktop/Files/Unity/Facility/Facility
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity Project Folders/GitHub/Facility/Facility/Assets
+[Subsystems] Discovering subsystems at path D:/Desktop/Files/Unity/Facility/Facility/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
     Vendor:   
     VRAM:     8081 MB
-    Driver:   26.21.14.3153
+    Driver:   27.21.14.6192
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002389 seconds.
+Registered in 0.002315 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000630 seconds.
+Registered in 0.000571 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000011672D86010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166CF911E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D923080 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116729FAAA0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D097030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001167168B020 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D9EE040 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000011672445E20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D9EE040 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001167168B020 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116729FAAA0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D278CB0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D097030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000011672080010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.1 MB.
 System memory in use after: 61.2 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 1.987500 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.718900 ms  DeleteObjects: 0.093400 ms)
+Total: 2.046800 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.775900 ms  DeleteObjects: 0.109600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models
-  artifactKey: Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daf27eeb7f3457760c579bf6c15a93') in 0.004053 seconds
-  Import took 0.005954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 321.007205 seconds.
-  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
-  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73edfc38f1f0b32039bf846c5f2d1b65') in 0.119912 seconds
-  Import took 0.122878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.341622 seconds.
   path: Assets/Procedural Gen/Facility Tiles.asset
   artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbd24dc4c01b0771907a37676a4b8c4') in 0.049917 seconds
-  Import took 0.053555 seconds .
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa72b2af405e7c2bcda1948907d3d26') in 0.087306 seconds
+  Import took 0.089670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.154398 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.001.fbx
+  artifactKey: Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.001.fbx using Guid(88a098865eacf0d4884856c0ba0fc167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c43471d0b06e7bb49011b55dbb29f7') in 0.153083 seconds
+  Import took 0.155569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.351889 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4c399297d0c4a7f07e47c264c29210') in 0.016364 seconds
+  Import took 0.019783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.504808 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0733845b28db0dfb45dcdce6624c1a') in 0.009513 seconds
+  Import took 0.012520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010255 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0733845b28db0dfb45dcdce6624c1a') in 0.009152 seconds
+  Import took 0.011855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.193505 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbd24dc4c01b0771907a37676a4b8c4') in 0.021395 seconds
+  Import took 0.024431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.912897 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90096450dccc54c838efc55159918afc') in 0.003225 seconds
+  Import took 0.006122 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000646 seconds.
+Registered in 0.000632 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000011673988E50 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D227010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166DAB1410 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D998030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116725648E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D7FA030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D366E60 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D998030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000011672090020 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001166D998030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116730B6020 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116725648E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000011673993860 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000116729F0090 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.1 MB.
-System memory in use after: 64.2 MB.
+System memory in use before: 64.4 MB.
+System memory in use after: 64.5 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1703.
-Total: 2.129200 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.766900 ms  DeleteObjects: 0.015500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1739.
+Total: 1.833000 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.597600 ms  DeleteObjects: 0.014200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 261.307879 seconds.
+  Time since last request: 63.472113 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e403684e7046a68e18f03d897381c636') in 0.063225 seconds
+  Import took 0.066138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.255890 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d74a80ff5103104ec96f5fd43d7718') in 0.009871 seconds
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.786368 seconds.
+  path: Assets/Models
+  artifactKey: Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c25d4aad966803cd2139fdc27ad80') in 0.006637 seconds
+  Import took 0.009251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.591242 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2184d537a66d0144385a465053efc784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2184d537a66d0144385a465053efc784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d1503ecb72ed0035f5011d53f1ee3e') in 0.007169 seconds
+  Import took 0.010350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.310922 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b08908459b6c1379be986e0f16ede63') in 0.002936 seconds
+  Import took 0.005477 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1743.
+Total: 1.704600 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.478500 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.643737 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4e132f9177336d82974ba5ff347407') in 0.068212 seconds
+  Import took 0.071164 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.5 MB.
+System memory in use after: 64.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 1.631400 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.428600 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.492617 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2e5a1cba06ce17adf029e2dc32e26f') in 0.067742 seconds
+  Import took 0.070493 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.5 MB.
+System memory in use after: 64.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1751.
+Total: 1.989300 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.724300 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.688737 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Hospital halls.png
+  artifactKey: Guid(367eff1fd8316b848b8167841f7c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Hospital halls.png using Guid(367eff1fd8316b848b8167841f7c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b958859f2721d4c967ca9d07dc30bd11') in 0.072535 seconds
+  Import took 0.075398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.098700 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77aadc8f9f22413059721fa310a7868f') in 0.046591 seconds
+  Import took 0.049898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.062141 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat
+  artifactKey: Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Wallpaper 3.mat using Guid(1e2de4b4dd60cd74b8d940ec929059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60acb7c72cbf5893fda70eec023d46b0') in 0.020660 seconds
+  Import took 0.023414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.772909 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.002.fbx
+  artifactKey: Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.002.fbx using Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4319cd76eec67d99634691fec833d9c8') in 0.092104 seconds
+  Import took 0.096159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.003.fbx
+  artifactKey: Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.003.fbx using Guid(460e026f1f1993549b525209c0849b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fd296f0f924667d9412098b0426f93') in 0.054438 seconds
+  Import took 0.056969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.004.fbx
+  artifactKey: Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.004.fbx using Guid(2855828ef5a3a654cb92e438e1bdb7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416dbcb12b88259551873d8681fcdfe1') in 0.061129 seconds
+  Import took 0.063936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 457.865165 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab
+  artifactKey: Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.001.prefab using Guid(1ec05a34b67260541a59ed4048569df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0915bd9a926ff028a358b49e3b6cec58') in 0.031076 seconds
+  Import took 0.034601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.760655 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee78520f94d9a5ad0f890dbe16fed3cf') in 0.031860 seconds
+  Import took 0.035404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.097497 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a4c27f8e04989067ddb8850c596abb') in 0.027799 seconds
+  Import took 0.030999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.094523 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc89091b3627eb8693f202c60728ee6') in 0.030072 seconds
+  Import took 0.033656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.077191 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04885283fd9df6f6a406558ce8e3c0d6') in 0.022371 seconds
+  Import took 0.025615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003080 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04885283fd9df6f6a406558ce8e3c0d6') in 0.018736 seconds
+  Import took 0.021464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.105972 seconds.
   path: Assets/Procedural Gen/Facility Tiles.asset
   artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136e3e3166917f583074d43c5e5a1a5') in 0.037476 seconds
-  Import took 0.040315 seconds .
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1453d8920950f1bd4ae918b9802a43') in 0.025427 seconds
+  Import took 0.028398 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1756.
+Total: 1.566300 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.364100 ms  DeleteObjects: 0.033300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.736031 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bfcdd12028bb1233b9d5274032dd93') in 0.081639 seconds
+  Import took 0.085200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d53e426b640edb7ff21bf5c36018e0') in 0.021757 seconds
+  Import took 0.025224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d11fc38a938618d886caeec6380b3f8') in 0.024320 seconds
+  Import took 0.028444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.880656 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdf1e004371565d1b42783bcecf82d') in 0.020554 seconds
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.173631 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab
+  artifactKey: Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.003.prefab using Guid(9ea9677426b27194da5b68b7fece23fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d3acbcc4f4b7aa0fd70afe52ec168f') in 0.020241 seconds
+  Import took 0.023505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.270590 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab
+  artifactKey: Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.004.prefab using Guid(77fa90cad89a5394d8dc89a6cfbb32a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18bd2739556243644e6c23e09ae12da') in 0.033124 seconds
+  Import took 0.036422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.464712 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28678629d29072b65b113decf48f0231') in 0.021075 seconds
+  Import took 0.023735 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 1.760100 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.486800 ms  DeleteObjects: 0.031100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 1.675600 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.492900 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.129185 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dc7a47c64c736c34fa9932bd8e4354') in 0.019000 seconds
+  Import took 0.021316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.207602 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f5aa5a952bc8dd99361995d1b4a49c') in 0.086834 seconds
+  Import took 0.090084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 414.604849 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab
+  artifactKey: Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab using Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded98b8127d547fcf009ec55891cda44') in 0.078923 seconds
+  Import took 0.083958 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1767.
+Total: 1.603600 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.407400 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.056050 seconds.
+  path: Assets/Procedural Gen/Facility Tiles.asset
+  artifactKey: Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Facility Tiles.asset using Guid(8de2f641ef913484b868aa36eaea92f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df45592f5c1bf83ee5f08aba3b01a1d') in 0.042026 seconds
+  Import took 0.045064 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 2.171100 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.887100 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1773.
+Total: 1.902200 ms (FindLiveObjects: 0.128800 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.722200 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.596041 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1103194ec5efcfa694831958bba810d2') in 0.015402 seconds
+  Import took 0.018053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 473.875163 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab
+  artifactKey: Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hub.003.prefab using Guid(8d94769704a13184a891c31bd4693bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2600493f63118b845ff762e6138cd6f5') in 0.266550 seconds
+  Import took 0.271979 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1777.
+Total: 1.825400 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.633400 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.564938 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20acc7cea7bebe341d9452b30579731') in 0.082452 seconds
+  Import took 0.086368 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 1.628800 ms (FindLiveObjects: 0.140300 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.391700 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.492203 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b13b897085104df919371e6a43ccf0') in 0.012098 seconds
+  Import took 0.014781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.058244 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a6ad7c44cf1c8f48cc94f0884190e') in 0.069088 seconds
+  Import took 0.071673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.848322 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397c945a48fbbe879997328267afd28e') in 0.028292 seconds
+  Import took 0.030748 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 1.752200 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.564200 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.655388 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ad74a922ec991feb1d3cd0e9fe2d6') in 0.103278 seconds
+  Import took 0.105891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.479466 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605a567e36897f689a747699ae34d003') in 0.033857 seconds
+  Import took 0.037011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.903159 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee8f0d58688f56b9dd71a87bc476c2') in 0.025650 seconds
+  Import took 0.028403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.041294 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
+  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e357d11fffa52b65dbbdefccc24a89ad') in 0.018627 seconds
+  Import took 0.022162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.711100 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b92fc5f3d92f8dfefde2fc0a3fca752') in 0.027405 seconds
+  Import took 0.030494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.993480 seconds.
+  path: Assets/Scenes/Facility.unity
+  artifactKey: Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facility.unity using Guid(57b58a9a4d1bb144a9b684f687530c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f27b6058e381caa3f58e6827d75724') in 0.003183 seconds
+  Import took 0.005648 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 1.718100 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.473500 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.562651 seconds.
+  path: Assets/Models/Chair
+  artifactKey: Guid(4a55c6c896b65574392b26987756fba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chair using Guid(4a55c6c896b65574392b26987756fba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8025ab117c593f801b1f61d9f9c625d') in 0.012509 seconds
+  Import took 0.016116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.006152 seconds.
+  path: Assets/Models/Halls and Rooms/Hall.002.fbx
+  artifactKey: Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Hall.002.fbx using Guid(634b4db463c5c0241b9ce8f6884ad73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1337efd051f87c955690dd312df7b12d') in 0.173107 seconds
+  Import took 0.176909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.643566 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab
+  artifactKey: Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.Elbow.prefab using Guid(673d7c43fda447c4daf268b4e6dfc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a25f7e13214476b191e1fae57d48490') in 0.025001 seconds
+  Import took 0.027651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.107405 seconds.
+  path: Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab
+  artifactKey: Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Gen/Prefabs Facility/Hall.002.prefab using Guid(1c066439cfd9db34f87734a3047a6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c486688992add5dca17326ef01d57319') in 0.026353 seconds
+  Import took 0.029628 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
