@@ -3,7 +3,17 @@ guid: 2747f976e18fc954499a0a120c2f7c69
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 70's Ceiling
+    second: {fileID: 2100000, guid: 1e2de4b4dd60cd74b8d940ec929059cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hospital walls
+    second: {fileID: 2100000, guid: 2d921e84b077bf74db4b76f95bef158d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
