@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2272935854760406296}
   - component: {fileID: 7540618016603367015}
   - component: {fileID: -7396203193346088700}
+  - component: {fileID: 7540618016107851811}
+  - component: {fileID: 7540618016107851810}
   m_Layer: 0
   m_Name: Hall.003
   m_TagString: Untagged
@@ -162,6 +164,32 @@ MonoBehaviour:
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   fileVersion: 1
+--- !u!65 &7540618016107851811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327614256576040141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0969124, y: 0.9842522, z: 0.8588357}
+  m_Center: {x: -1.8230648, y: 0.49212587, z: -0.7786095}
+--- !u!65 &7540618016107851810
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327614256576040141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9668884, y: 0.9328153, z: 0.81180334}
+  m_Center: {x: 3.2128754, y: 0.46640742, z: -0.8021257}
 --- !u!1 &7540618015409895328
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1671739239898154996}
   - component: {fileID: 4542312086645019233}
   - component: {fileID: 4274934233618162054}
+  - component: {fileID: 4579423354592997431}
   m_Layer: 0
   m_Name: Couch.002
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4579423354592997431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439910769056941703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.008341768, y: 0.01861832, z: 0.009990478}
+  m_Center: {x: -0.0024545689, y: -0.0015061743, z: 0.0053629195}
 --- !u!1 &2461692719399737816
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579423354048470268}
-  - component: {fileID: 4579423354592997433}
+  - component: {fileID: 8982836850864379053}
   m_Layer: 0
   m_Name: Doorway
   m_TagString: Untagged
@@ -302,13 +316,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4579423354048470269}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 29.909, y: 1, z: -19.48}
+  m_LocalPosition: {x: 29.9, y: 1, z: -19.48}
   m_LocalScale: {x: 2.7, y: 2.4, z: 0.18}
   m_Children: []
   m_Father: {fileID: 2982052353220068194}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &4579423354592997433
+--- !u!114 &8982836850864379053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -349,7 +363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579423354635704671}
-  - component: {fileID: 4579423354592997432}
+  - component: {fileID: 9005739179410992313}
   m_Layer: 0
   m_Name: Doorway
   m_TagString: Untagged
@@ -365,13 +379,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4579423354635704664}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 24.92, y: 1, z: -14.493}
+  m_LocalPosition: {x: 24.92, y: 1, z: -14.5}
   m_LocalScale: {x: 2.7, y: 2.4, z: 0.18}
   m_Children: []
   m_Father: {fileID: 2982052353220068194}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
---- !u!114 &4579423354592997432
+--- !u!114 &9005739179410992313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,7 +426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579423354803834565}
-  - component: {fileID: 4579423354592997434}
+  - component: {fileID: 9167653295390024038}
   m_Layer: 0
   m_Name: Doorway
   m_TagString: Untagged
@@ -428,13 +442,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4579423354803834566}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 34.86, y: 1, z: -14.39}
+  m_LocalPosition: {x: 34.86, y: 1, z: -14.5}
   m_LocalScale: {x: 2.7, y: 2.4, z: 0.18}
   m_Children: []
   m_Father: {fileID: 2982052353220068194}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &4579423354592997434
+--- !u!114 &9167653295390024038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -540,6 +554,9 @@ GameObject:
   - component: {fileID: 4907945887806609192}
   - component: {fileID: 5335402997563675511}
   - component: {fileID: 8173604868558251762}
+  - component: {fileID: 1566348767635818653}
+  - component: {fileID: 4579423354592997434}
+  - component: {fileID: 4579423354592997433}
   m_Layer: 0
   m_Name: Chairs
   m_TagString: Untagged
@@ -610,6 +627,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1566348767635818653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551462374009069123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0029552337, y: 0.0037140327, z: 0.0017972176}
+  m_Center: {x: 0.0044479347, y: -0.004648856, z: 0.00089860865}
+--- !u!65 &4579423354592997434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551462374009069123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001480835, y: 0.0038116137, z: 0.0017972176}
+  m_Center: {x: 0.0092075085, y: -0.004697642, z: 0.00089860865}
+--- !u!65 &4579423354592997433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551462374009069123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0073782066, y: 0.0013279326, z: 0.0017972176}
+  m_Center: {x: 0.006258776, y: -0.009311213, z: 0.0008986087}
 --- !u!1 &5784331295470641581
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +677,7 @@ GameObject:
   - component: {fileID: 3181835770264850853}
   - component: {fileID: 7953647143165094066}
   - component: {fileID: 7588140099885844823}
+  - component: {fileID: 4579423354592997432}
   m_Layer: 0
   m_Name: Couch.001
   m_TagString: Untagged
@@ -691,3 +748,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4579423354592997432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784331295470641581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.008341767, y: 0.01861832, z: 0.009990476}
+  m_Center: {x: -0.0024545698, y: -0.0015061747, z: 0.0053629205}

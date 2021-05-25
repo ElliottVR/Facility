@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 641844562761949004}
   - component: {fileID: 6040871310267059457}
   - component: {fileID: -5063876912274784567}
+  - component: {fileID: 6040871309787539337}
   m_Layer: 0
   m_Name: Hall.004
   m_TagString: Untagged
@@ -164,6 +165,19 @@ MonoBehaviour:
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   fileVersion: 1
+--- !u!65 &6040871309787539337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434596912859627161}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8940964, y: 0.9183991, z: 0.8327217}
+  m_Center: {x: -3.6099281, y: 0.4591993, z: -0.9541216}
 --- !u!1 &6040871308556196173
 GameObject:
   m_ObjectHideFlags: 0

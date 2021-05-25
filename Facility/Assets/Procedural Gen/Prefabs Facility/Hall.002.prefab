@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 581604841097809748}
   - component: {fileID: 3456145255585856414}
   - component: {fileID: 3757128506848097550}
+  - component: {fileID: 3897081097919965986}
   m_Layer: 0
   m_Name: Hall.002
   m_TagString: Untagged
@@ -147,6 +148,20 @@ MonoBehaviour:
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   fileVersion: 1
+--- !u!64 &3897081097919965986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816323205668739659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8241414575929638151, guid: 634b4db463c5c0241b9ce8f6884ad73e, type: 3}
 --- !u!1 &5309799269637461069
 GameObject:
   m_ObjectHideFlags: 0
