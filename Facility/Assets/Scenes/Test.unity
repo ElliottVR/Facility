@@ -344,13 +344,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768204582}
-  m_LocalRotation: {x: 0, y: 0, z: -0.6427876, w: 0.7660445}
-  m_LocalPosition: {x: 0, y: 0.247, z: -0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6427876, w: 0.7660445}
+  m_LocalPosition: {x: 0, y: -0.14570744, z: 0.025120895}
+  m_LocalScale: {x: 0.82450074, y: 0.44249904, z: 0.83739895}
   m_Children:
   - {fileID: 1054697329}
-  m_Father: {fileID: 1831452869}
-  m_RootOrder: 1
+  m_Father: {fileID: 2057023116}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -80}
 --- !u!114 &768204584
 MonoBehaviour:
@@ -367,11 +367,10 @@ MonoBehaviour:
   myBattery: {fileID: 1831452865}
   orgin: {fileID: 768204582}
   batteryLife: 0
-  turnDeg: 80
   startPos: 80
   endPos: {x: 0, y: 0, z: 80, w: 0}
   degreesPerSecond: 0
-  totalRotationTime: 15
+  totalRotationTime: 30
 --- !u!1 &831696581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -559,7 +558,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 80d38b613140e27488175edc7cb24c35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -992,11 +991,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831452865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.23, y: 0.61, z: -13.58}
-  m_LocalScale: {x: 0.28, y: 0.51640403, z: 0.28}
+  m_LocalPosition: {x: 45.23, y: 0.71, z: -13.58}
+  m_LocalScale: {x: 0.387548, y: 0.45853665, z: 0.387548}
   m_Children:
   - {fileID: 2057023116}
-  - {fileID: 768204583}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1031,7 +1029,7 @@ MonoBehaviour:
   grabbed: 0
   Player: {fileID: 831696581}
   generator: {fileID: 1673182191}
-  batteryLife: 15
+  batteryLife: 30
   multiplier: 1
   startTimer: 0
   charging: 0
@@ -1142,10 +1140,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057023115}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.421, z: -0.53}
-  m_LocalScale: {x: 2.321002, y: 1.1941739, z: 1.1941739}
-  m_Children: []
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.65624356, z: -0.5020012}
+  m_LocalScale: {x: 0.53870165, y: 0.43203947, z: 0.27716628}
+  m_Children:
+  - {fileID: 768204583}
   m_Father: {fileID: 1831452869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
