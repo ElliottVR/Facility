@@ -10,7 +10,7 @@ public class Battery : MonoBehaviour
     public GameObject generator;
     public float batteryLife;
     public int multiplier;
-    private bool startTimer;
+    public bool startTimer;
     private bool dead;
     public bool charging;
     public GameObject generatorBattery;
