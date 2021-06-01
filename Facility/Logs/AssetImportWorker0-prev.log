@@ -1,0 +1,225 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 32640 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity Project Folders/GitHub/Facility/Facility
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59771
+Successfully changed project path to: E:/Unity Project Folders/GitHub/Facility/Facility
+E:/Unity Project Folders/GitHub/Facility/Facility
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Project Folders/GitHub/Facility/Facility/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   
+    VRAM:     8081 MB
+    Driver:   26.21.14.3153
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004081 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002AB0D3A1010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB081C0840 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB081C0840 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0BF9D030 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07E22F30 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07E22F30 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C726010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C745420 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C456010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0CEB3840 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0CBE9A20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0816CC10 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0816CC10 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C745420 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.782100 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.527600 ms  DeleteObjects: 0.099200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models
+  artifactKey: Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daf27eeb7f3457760c579bf6c15a93') in 0.004086 seconds
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.520504 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(a26bb348885caaa4dbb9da2e1ff8cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(a26bb348885caaa4dbb9da2e1ff8cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bc772a1e2cde16512b2b0d8290b5f7') in 0.002550 seconds
+  Import took 0.004851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.828684 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(6918d961bab624b47aad7f1b9f8acecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(6918d961bab624b47aad7f1b9f8acecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405ddb74c6990677ee7bf11a859d03cb') in 0.258318 seconds
+  Import took 0.260584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.689730 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(a44be5745b2414a44b13b45ca80743fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(a44be5745b2414a44b13b45ca80743fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46515a605bcc4a42f62ccf44d8e09d') in 0.002989 seconds
+  Import took 0.005364 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000607 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002AB07E43B00 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0CEB8840 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07D043D0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07E43B00 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0EEA9B30 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0828B9E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB081DC9F0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0828B9E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07B1D010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0828B9E0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07E43B00 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C81AE20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0D63A400 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB077C8B90 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.866800 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.047000 ms MarkObjects: 1.602400 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002AB0C2B2010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0CAD1FE0 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A9202D2F20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C2B2010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07E22F30 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB07AD0010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0BEF0080 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0D502020 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0E620010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0D906010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0BF6F010 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0E645E20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB0C81AE20 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002AB2F776710 doesn't match image E:\Unity Project Folders\GitHub\Facility\Facility\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.626700 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.441200 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
