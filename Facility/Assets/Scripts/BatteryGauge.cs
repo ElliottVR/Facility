@@ -45,12 +45,13 @@ public class BatteryGauge : MonoBehaviour
         if (batteryLife == 0)
         {
             canRotate = false;
-            transform.rotation = Quaternion.Euler(0, 0, 80);
+            //transform.rotation = Quaternion.Euler(0, 0, 80);
         }
         if (transform.eulerAngles.z == 80)
         {
             canRotate = false;
             degreesPerSecond = 0;
+            transform.rotation = Quaternion.Euler(0, 0, 80);
         }
     }
     
