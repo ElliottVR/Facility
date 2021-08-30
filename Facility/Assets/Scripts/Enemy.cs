@@ -29,8 +29,13 @@ public class Enemy : MonoBehaviour
     {
         // Checks if enemy has something in sight.
         rayHitting = Physics.BoxCast(rayCollide.bounds.center, transform.localScale, transform.forward, out hit, transform.rotation, maxSight);
-        
-
+        if (rayHitting)
+        {
+            if (hit.collider.gameObject.tag == "Player")
+            {
+                inSight = true;
+            }
+        }
 
         if (inSight == true)
         {

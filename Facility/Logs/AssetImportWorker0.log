@@ -1,1258 +1,568 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16193 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+D:\Program Files\Unity 2020\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/sawbl/Documents/GitHub/Facility/Facility
+D:/Unity Projects/GitHub/Facility/Facility
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57751
-Successfully changed project path to: C:/Users/sawbl/Documents/GitHub/Facility/Facility
-C:/Users/sawbl/Documents/GitHub/Facility/Facility
+57612
+Successfully changed project path to: D:/Unity Projects/GitHub/Facility/Facility
+D:/Unity Projects/GitHub/Facility/Facility
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/sawbl/Documents/GitHub/Facility/Facility/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2020/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/GitHub/Facility/Facility/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.5256
+    VRAM:     11049 MB
+    Driver:   27.21.14.6137
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Mono path[0] = 'D:/Program Files/Unity 2020/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2020/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity 2020/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001464 seconds.
+Register platform support module: D:/Program Files/Unity 2020/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001391 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  1.183 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000522 seconds.
+Registered in 0.000796 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45316BF0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
+- Completed reload, in  0.730 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1249 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.3 MB.
-System memory in use after: 61.3 MB.
+System memory in use after: 61.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1694.
-Total: 1.399200 ms (FindLiveObjects: 0.109300 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.173300 ms  DeleteObjects: 0.083200 ms)
+Total: 1.541400 ms (FindLiveObjects: 0.100300 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.362200 ms  DeleteObjects: 0.050400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Test.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b965c8fe613605e896ccfa66ca5f245a') in 0.012869 seconds
-  Import took 0.014564 seconds .
+  path: Assets/Textures/VU-meter-power.jpg
+  artifactKey: Guid(6a5b3130c4a4fa54184eef74491820ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/VU-meter-power.jpg using Guid(6a5b3130c4a4fa54184eef74491820ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce5b091085599ee26d7e9957d9167ce') in 0.086841 seconds
+  Import took 0.088432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.822591 seconds.
-  path: Assets/Models/Halls and Rooms/Hall.Elbow.fbx
-  artifactKey: Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Halls and Rooms/Hall.Elbow.fbx using Guid(2747f976e18fc954499a0a120c2f7c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dbb3f03a28917f1215edc1e2210bfc') in 0.122106 seconds
-  Import took 0.123923 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/Textures/HART Insitiute Logo (white).png
+  artifactKey: Guid(8229fba52b64a2d4abec0685e576b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HART Insitiute Logo (white).png using Guid(8229fba52b64a2d4abec0685e576b673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae445329157627749b59bd31568db92e') in 0.026410 seconds
+  Import took 0.027961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 302.206411 seconds.
-  path: Assets/Scripts/Battery.cs
-  artifactKey: Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Battery.cs using Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533b384b4f8dce35c56368dd7f2a9520') in 0.006255 seconds
-  Import took 0.008249 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Textures/Carpet.jpg
+  artifactKey: Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Carpet.jpg using Guid(a122e75bf3ddda345bf5d3eb41cbeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112e78457c35f61b52c554e439df17a') in 0.026090 seconds
+  Import took 0.027547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020339 seconds.
-  path: Assets/Scripts/Battery.cs
-  artifactKey: Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Battery.cs using Guid(264709fcd37b572488f72d0db77f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533b384b4f8dce35c56368dd7f2a9520') in 0.001917 seconds
-  Import took 0.003942 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Textures/pic_Disco_Ball_Mirror_Mosaic_Tile_Texture_3x2_light_glow.jpg
+  artifactKey: Guid(05429a1e1885dfd4386aa7a6d5a41742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/pic_Disco_Ball_Mirror_Mosaic_Tile_Texture_3x2_light_glow.jpg using Guid(05429a1e1885dfd4386aa7a6d5a41742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1360ca206cd99618e4a458d1917d773') in 0.026887 seconds
+  Import took 0.028545 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.857755 seconds.
-  path: Assets/Scripts/BatteryGauge.cs
-  artifactKey: Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BatteryGauge.cs using Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f7e01cceb7df0597f6590b2f09c8be') in 0.007138 seconds
-  Import took 0.009202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001538 seconds.
-  path: Assets/Scripts/BatteryGauge.cs
-  artifactKey: Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BatteryGauge.cs using Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f7e01cceb7df0597f6590b2f09c8be') in 0.001799 seconds
-  Import took 0.003820 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000564 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45297330 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
-System memory in use after: 64.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1707.
-Total: 1.229200 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.074600 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.597539 seconds.
-  path: Assets/Scripts/BatteryGauge.cs
-  artifactKey: Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BatteryGauge.cs using Guid(5c498f45f476cad45892fe1895cb03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a5d1cd4bdefba79c263e5842555ff5') in 0.005205 seconds
-  Import took 0.006802 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000451 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
-System memory in use after: 64.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 1.244900 ms (FindLiveObjects: 0.108700 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.075400 ms  DeleteObjects: 0.025400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000538 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
-System memory in use after: 64.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1713.
-Total: 1.319900 ms (FindLiveObjects: 0.104700 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.171700 ms  DeleteObjects: 0.010200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000557 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
-System memory in use after: 64.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 1.286300 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.123700 ms  DeleteObjects: 0.010700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.608 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.4 MB.
-System memory in use after: 64.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1719.
-Total: 1.225200 ms (FindLiveObjects: 0.108100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.074000 ms  DeleteObjects: 0.009800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000436 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.625 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.5 MB.
-System memory in use after: 64.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 1.280600 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.104700 ms  DeleteObjects: 0.010900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000982 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.5 MB.
-System memory in use after: 64.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 1.222200 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.066600 ms  DeleteObjects: 0.008900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 541.392752 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(d28f4334b3474bb4f8b76228f4427789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(d28f4334b3474bb4f8b76228f4427789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ab318b503de176354cd26161b60c00') in 0.012130 seconds
-  Import took 0.014132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.675200 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(7e90d9ca7d9ae554191b7cbbec1aa3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(7e90d9ca7d9ae554191b7cbbec1aa3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b06782d4159f639fa215ec0b24ca61') in 0.006556 seconds
-  Import took 0.008958 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000425 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45300020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.5 MB.
-System memory in use after: 64.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1729.
-Total: 1.220800 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.065900 ms  DeleteObjects: 0.009600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.748603 seconds.
-  path: Assets/Materials/Carpet.mat
-  artifactKey: Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Carpet.mat using Guid(cf7a20cd203ef5948b7cabc66c54e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69c06964f27a3d7f4bb561d72d4b371') in 0.081454 seconds
-  Import took 0.083907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Materials/Orange.mat
-  artifactKey: Guid(0ee66d3fcc912e6408538ecf01425919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Orange.mat using Guid(0ee66d3fcc912e6408538ecf01425919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd7774739656688d77c911b60589043') in 0.051779 seconds
-  Import took 0.053575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Materials/VU-meter-power.mat
-  artifactKey: Guid(cd0ca1088f70de4489309d5c6913fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/VU-meter-power.mat using Guid(cd0ca1088f70de4489309d5c6913fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccf483a9b5549d53ba0e1a340f1bd32') in 0.013470 seconds
-  Import took 0.016023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Materials/HI Logo.mat
-  artifactKey: Guid(9de759be72b3ec04eb9ad566150422fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/HI Logo.mat using Guid(9de759be72b3ec04eb9ad566150422fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bdc779bdd5f752a7190a067ef373a7') in 0.038369 seconds
-  Import took 0.040577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Materials/Test.mat
-  artifactKey: Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Test.mat using Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2704e90819df6d6d51214ed17c9ef9') in 0.010695 seconds
-  Import took 0.012741 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Textures/HART Insitiute Logo.png
+  artifactKey: Guid(d1e15976091d9144aa309719d6b1b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HART Insitiute Logo.png using Guid(d1e15976091d9144aa309719d6b1b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c6b419a3add59294c9f1f4ecee4a4e') in 0.011993 seconds
+  Import took 0.013565 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000234 seconds.
-  path: Assets/Materials/Disco Ball.mat
-  artifactKey: Guid(c0b05e9dd9545ec43bf1410e19b48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Disco Ball.mat using Guid(c0b05e9dd9545ec43bf1410e19b48510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290d39c61a51901d66cd3fb8f37d16dd') in 0.023890 seconds
-  Import took 0.026223 seconds .
+  path: Assets/Textures/Ceiling.jpg
+  artifactKey: Guid(39547b17c9abfe540878256960dfe9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ceiling.jpg using Guid(39547b17c9abfe540878256960dfe9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97ff2aaf4bcb67f4efebacf20015b70') in 0.021832 seconds
+  Import took 0.023466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Materials/Wallpaper.mat
-  artifactKey: Guid(857e640db25846843858da2684798671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wallpaper.mat using Guid(857e640db25846843858da2684798671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a78fa0c3485e7fc0520acac842c1c6f') in 0.023862 seconds
-  Import took 0.025650 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Textures/Wallpaper 2.jpg
+  artifactKey: Guid(37f9a24a42b39394b840efcede7f72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wallpaper 2.jpg using Guid(37f9a24a42b39394b840efcede7f72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa5563d1a3c3786fcbbb98e021a5a65') in 0.018032 seconds
+  Import took 0.019547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(6918d961bab624b47aad7f1b9f8acecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(6918d961bab624b47aad7f1b9f8acecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfed94de0a23bf21bff96bb393fffaea') in 0.002043 seconds
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Textures/Wallpaper 1.jpg
+  artifactKey: Guid(36a16fc7caa28754686020bc345e3b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wallpaper 1.jpg using Guid(36a16fc7caa28754686020bc345e3b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8c8bb74074fc554e29ecb42b25997c') in 0.020593 seconds
+  Import took 0.022132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.618725 seconds.
+  path: Assets/Textures/Double Door.png
+  artifactKey: Guid(1947331b008c51b4d8f0a7b8a7ee7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Double Door.png using Guid(1947331b008c51b4d8f0a7b8a7ee7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90a7fd1cb0b70ce5f7b1b2db2e8ee9') in 0.009135 seconds
+  Import took 0.011963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011571 seconds.
+  path: Assets/Textures/Double Door.png
+  artifactKey: Guid(1947331b008c51b4d8f0a7b8a7ee7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Double Door.png using Guid(1947331b008c51b4d8f0a7b8a7ee7e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90a7fd1cb0b70ce5f7b1b2db2e8ee9') in 0.011511 seconds
+  Import took 0.013645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.459370 seconds.
+  path: Assets/Models
+  artifactKey: Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(8d6b2934899b8504ab97f4e4fc12d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243c25d4aad966803cd2139fdc27ad80') in 0.002505 seconds
+  Import took 0.004234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.260655 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Hospital halls.png
+  artifactKey: Guid(367eff1fd8316b848b8167841f7c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Hospital halls.png using Guid(367eff1fd8316b848b8167841f7c5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978b8fe199880a8989bc0917805ba5c3') in 0.012419 seconds
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat
+  artifactKey: Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat using Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf22146ea81087b96d1e0720612c26') in 0.619769 seconds
+  Import took 0.621519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002485 seconds.
+  path: Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat
+  artifactKey: Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Halls and Rooms/Mat-Tex/Tex/Waiting Room chairs.mat using Guid(4a9a9b30bdcee51488f2d5ab5918ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf22146ea81087b96d1e0720612c26') in 0.023453 seconds
+  Import took 0.025207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.416711 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ced777772a76977428cff6bf8b8d4bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ced777772a76977428cff6bf8b8d4bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be1fd6546c5d493c5c754eac9737698') in 0.002317 seconds
+  Import took 0.004171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079410 seconds.
   path: Assets/Materials/Needle.mat
   artifactKey: Guid(80d38b613140e27488175edc7cb24c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Needle.mat using Guid(80d38b613140e27488175edc7cb24c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bfeaea071f8bbe9d1236126c23ec2') in 0.010463 seconds
-  Import took 0.012203 seconds .
+Start importing Assets/Materials/Needle.mat using Guid(80d38b613140e27488175edc7cb24c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113198e7dec4a33ea5371f23995c80b4') in 0.009150 seconds
+  Import took 0.011154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Materials/Ceiling.mat
-  artifactKey: Guid(8091a63546f515a40a47edc696ee20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ceiling.mat using Guid(8091a63546f515a40a47edc696ee20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed60767ff6bf86bf92fce85794df4dc') in 0.021725 seconds
-  Import took 0.023454 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/VU-meter-power.mat
+  artifactKey: Guid(cd0ca1088f70de4489309d5c6913fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VU-meter-power.mat using Guid(cd0ca1088f70de4489309d5c6913fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9f124ab1328e1fd78821deec59a51c') in 0.009624 seconds
+  Import took 0.011229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Test.mat
+  artifactKey: Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test.mat using Guid(0ff8741ce715d164b9cb941392de2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0231ddfaf96163133f09533ca4c2cc') in 0.009509 seconds
+  Import took 0.011456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Needle.mat
+  artifactKey: Guid(80d38b613140e27488175edc7cb24c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Needle.mat using Guid(80d38b613140e27488175edc7cb24c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113198e7dec4a33ea5371f23995c80b4') in 0.007563 seconds
+  Import took 0.009278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.353872 seconds.
+  path: Assets/Materials/Double Door.mat
+  artifactKey: Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Double Door.mat using Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089d8fbbf678597262d445ea3a58e403') in 0.009146 seconds
+  Import took 0.011112 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000576 seconds.
+Registered in 0.000724 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE499B1120 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.657 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
+System memory in use before: 64.5 MB.
+System memory in use after: 64.6 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1766.
-Total: 1.286300 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.115200 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000821 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE45297330 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 2.250600 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.998700 ms  DeleteObjects: 0.017400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1739.
+Total: 1.376700 ms (FindLiveObjects: 0.109700 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.224900 ms  DeleteObjects: 0.011600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000619 seconds.
+Registered in 0.000817 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE499B1120 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1772.
-Total: 1.628300 ms (FindLiveObjects: 0.147300 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.427400 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000565 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1775.
-Total: 1.252200 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.092700 ms  DeleteObjects: 0.009600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000581 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1778.
-Total: 1.231200 ms (FindLiveObjects: 0.111700 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.076600 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000481 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 1.254300 ms (FindLiveObjects: 0.112300 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.096100 ms  DeleteObjects: 0.011500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000789 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1784.
-Total: 1.855500 ms (FindLiveObjects: 0.159900 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.628400 ms  DeleteObjects: 0.013900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000463 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1787.
-Total: 1.245000 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.084900 ms  DeleteObjects: 0.009300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000579 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1790.
-Total: 1.492600 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.321600 ms  DeleteObjects: 0.009800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000806 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1793.
-Total: 1.799300 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.576800 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000735 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1796.
-Total: 1.931800 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.655900 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001027 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1799.
-Total: 2.221600 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.962400 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000766 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1802.
-Total: 2.194300 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.935300 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000750 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1805.
-Total: 1.863300 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.056400 ms MarkObjects: 1.616200 ms  DeleteObjects: 0.014800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000750 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1808.
-Total: 1.230100 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.074800 ms  DeleteObjects: 0.009200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000469 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1811.
-Total: 1.332800 ms (FindLiveObjects: 0.113700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.152700 ms  DeleteObjects: 0.032000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000486 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1814.
-Total: 1.507000 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.282000 ms  DeleteObjects: 0.023600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000449 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1817.
-Total: 1.300000 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.136300 ms  DeleteObjects: 0.009700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000432 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4C38EFC0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1820.
-Total: 1.478400 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.296700 ms  DeleteObjects: 0.010500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1823.
-Total: 1.298800 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.106600 ms  DeleteObjects: 0.009900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000494 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1826.
-Total: 1.268400 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.102500 ms  DeleteObjects: 0.010000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000422 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1829.
-Total: 1.258000 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.092800 ms  DeleteObjects: 0.009100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1832.
-Total: 1.239800 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.079700 ms  DeleteObjects: 0.009400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000743 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1835.
-Total: 1.247700 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.082600 ms  DeleteObjects: 0.009300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000533 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 1.242500 ms (FindLiveObjects: 0.118600 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.079600 ms  DeleteObjects: 0.009700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000528 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1841.
-Total: 1.409400 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.240600 ms  DeleteObjects: 0.009000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000588 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1844.
-Total: 1.278800 ms (FindLiveObjects: 0.121500 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.114300 ms  DeleteObjects: 0.009000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000466 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1847.
-Total: 2.448200 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.232400 ms  DeleteObjects: 0.031800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000484 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 1.271200 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.100100 ms  DeleteObjects: 0.010600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000532 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.247400 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.087300 ms  DeleteObjects: 0.009000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000531 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 1.375700 ms (FindLiveObjects: 0.116900 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.195000 ms  DeleteObjects: 0.028900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000454 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4F6FD690 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.648 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+System memory in use before: 64.5 MB.
+System memory in use after: 64.6 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 1.282100 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.106200 ms  DeleteObjects: 0.010200 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1742.
+Total: 1.484600 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.026700 ms MarkObjects: 1.325800 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 982.451069 seconds.
+  path: Assets/Materials/Double Door.mat
+  artifactKey: Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Double Door.mat using Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfbee421b669b416ad3d48a5f305cb5') in 0.054136 seconds
+  Import took 0.056191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.064301 seconds.
+  path: Assets/Materials/Chrome.mat
+  artifactKey: Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Chrome.mat using Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb7c83a9711ec4db7b9afe7a625b992') in 0.012264 seconds
+  Import took 0.014228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.348520 seconds.
+  path: Assets/Textures/Chrome.jpg
+  artifactKey: Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chrome.jpg using Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b288bb158752888a5043ce539e542334') in 0.013706 seconds
+  Import took 0.016154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008178 seconds.
+  path: Assets/Textures/Chrome.jpg
+  artifactKey: Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chrome.jpg using Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b288bb158752888a5043ce539e542334') in 0.014893 seconds
+  Import took 0.016934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.266379 seconds.
+  path: Assets/Materials/Chrome.mat
+  artifactKey: Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Chrome.mat using Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16a41246cac08ae068d79fde898a8c0') in 0.016155 seconds
+  Import took 0.018184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.570729 seconds.
+  path: Assets/Textures/Chrome.jpg
+  artifactKey: Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chrome.jpg using Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c6c9cfc06b7195f7db383837a9f14c') in 0.040574 seconds
+  Import took 0.042708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.783053 seconds.
+  path: Assets/Textures/Chrome.jpg
+  artifactKey: Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chrome.jpg using Guid(fc573fd9f75f7ed4c889e8943984123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7441d92f46cfb8ec6932842720a0854b') in 0.011406 seconds
+  Import took 0.013268 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000487 seconds.
+Registered in 0.000706 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.648 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1862.
-Total: 1.268100 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.099400 ms  DeleteObjects: 0.010000 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1750.
+Total: 1.458700 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.275900 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3915.901801 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/DoorwayIcon.png
+  artifactKey: Guid(f2053d927a1dc894e8ad58c58d092aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/DoorwayIcon.png using Guid(f2053d927a1dc894e8ad58c58d092aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba358cdfb8f4fcb36934bfa3561bc7e3') in 0.036988 seconds
+  Import took 0.038990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/Extras Texture.png
+  artifactKey: Guid(6ff20f8160fceea459409518bd41160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/Extras Texture.png using Guid(6ff20f8160fceea459409518bd41160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2cce73bd68f5b352070027cd978d1a') in 0.007918 seconds
+  Import took 0.009587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Fonts/208.ttf
+  artifactKey: Guid(ba00f5f8f92da7c46b5704f4d13632e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/208.ttf using Guid(ba00f5f8f92da7c46b5704f4d13632e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4579e62ae0665cb9b2fb00322cb90c5') in 0.073310 seconds
+  Import took 0.075036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Fonts/Gecko Lunch.ttf
+  artifactKey: Guid(a27437392753f8e4b9edacd099b8268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Gecko Lunch.ttf using Guid(a27437392753f8e4b9edacd099b8268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d75fc0fb4930976b9c3f202b9d2ce2') in 0.023797 seconds
+  Import took 0.025463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Fonts/Expatriate_Promo.ttf
+  artifactKey: Guid(7c66ea356005b1f4b9ceddea97707b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Expatriate_Promo.ttf using Guid(7c66ea356005b1f4b9ceddea97707b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249eddb9d205141b077e929913be8db') in 0.018135 seconds
+  Import took 0.019788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fonts/BEAMIE.TTF
+  artifactKey: Guid(f83f9e58e2890e64ca9a0bf7613459e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BEAMIE.TTF using Guid(f83f9e58e2890e64ca9a0bf7613459e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50125ab8839685b1bb961ea41bf0056e') in 0.015698 seconds
+  Import took 0.017386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Fonts/heavy heap.ttf
+  artifactKey: Guid(d600e6df76d8cfb4aa13631bca2ef0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/heavy heap.ttf using Guid(d600e6df76d8cfb4aa13631bca2ef0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a62ba8a10e2bac430b5363808d93335') in 0.016895 seconds
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/DunGenLogo.png
+  artifactKey: Guid(c40d4c32feda2de4ea7afcce0e75e713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/DunGenLogo.png using Guid(c40d4c32feda2de4ea7afcce0e75e713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9010e3f3442922a1fb33944ca96b664') in 0.005967 seconds
+  Import took 0.007811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/DoorwaySocketIcon.png
+  artifactKey: Guid(a457ae1eef5327241aafade0433a1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/DoorwaySocketIcon.png using Guid(a457ae1eef5327241aafade0433a1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dbd1678e6f9040d6b30b1aa0c5a6d2') in 0.005872 seconds
+  Import took 0.007601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Sprites/Floor.png
+  artifactKey: Guid(cb275fcf5ba685e408c787ea1ac4fc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Sprites/Floor.png using Guid(cb275fcf5ba685e408c787ea1ac4fc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa9a9842953aeea6302229aeece4407') in 0.016785 seconds
+  Import took 0.018419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.451165 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/Clock.png
+  artifactKey: Guid(c6aecb3300e775a4fbb2dd62bdc67aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/Clock.png using Guid(c6aecb3300e775a4fbb2dd62bdc67aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca79841cfbcf8a2bc0300ea960599feb') in 0.006237 seconds
+  Import took 0.008102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/Clock.png
+  artifactKey: Guid(c6aecb3300e775a4fbb2dd62bdc67aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/Clock.png using Guid(c6aecb3300e775a4fbb2dd62bdc67aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca79841cfbcf8a2bc0300ea960599feb') in 0.005615 seconds
+  Import took 0.007682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030585 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+  artifactKey: Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png using Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b667f886c9d6e87992d411fb1c627ba9') in 0.018347 seconds
+  Import took 0.020209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18174e7a551924a897e7a650783f3a2a') in 0.018344 seconds
+  Import took 0.020086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210408 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+  artifactKey: Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png using Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc165a30e38bc0a56473c86a97608fae') in 0.041909 seconds
+  Import took 0.043747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8327c7d2eba0d76c5e955214298d6006') in 0.008656 seconds
+  Import took 0.010545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362a0771508523727feb2e94f1d45b49') in 0.022157 seconds
+  Import took 0.023893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+  artifactKey: Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png using Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0b38243be0e343ab05ee4f716e8500') in 0.008673 seconds
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f614c1c54182722f0fe17384c2dbd48') in 0.009559 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+  artifactKey: Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png using Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d80db488455a38acd4741482080112c') in 0.044769 seconds
+  Import took 0.046503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+  artifactKey: Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png using Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe138bd5e7f35a5c50c236355e92ff9') in 0.008121 seconds
+  Import took 0.009984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+  artifactKey: Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png using Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7883c9e3f39346cc1dc72d461ad5259b') in 0.008910 seconds
+  Import took 0.010624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+  artifactKey: Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png using Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9b08f1658f4fb75457b608403eab4e') in 0.049222 seconds
+  Import took 0.051016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+  artifactKey: Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png using Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5cc82ab85c55607da6795d36bd1e19') in 0.007819 seconds
+  Import took 0.009574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094055 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+  artifactKey: Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png using Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69104521114736f884d754b39e0ca10') in 0.009538 seconds
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/ArchetypeIcon.png
+  artifactKey: Guid(f9216675f16486240ac19260b588d267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/ArchetypeIcon.png using Guid(f9216675f16486240ac19260b588d267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a186fcfe8162417c6b77113d708557') in 0.005800 seconds
+  Import took 0.007443 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000452 seconds.
+Registered in 0.000845 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1865.
-Total: 1.325400 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.147900 ms  DeleteObjects: 0.010300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1868.
-Total: 2.488500 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.199000 ms  DeleteObjects: 0.016000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4A7C4020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 1.869500 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.625800 ms  DeleteObjects: 0.015300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001397 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 1.833800 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.608800 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000796 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 1.891700 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.051700 ms MarkObjects: 1.659700 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000549 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.636 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 1.349900 ms (FindLiveObjects: 0.119600 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.146500 ms  DeleteObjects: 0.032200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000534 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1262,494 +572,586 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.1 MB.
+System memory in use after: 65.2 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 2.194500 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.996200 ms  DeleteObjects: 0.035300 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1761.
+Total: 1.395800 ms (FindLiveObjects: 0.106900 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.248300 ms  DeleteObjects: 0.012600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000488 seconds.
+Registered in 0.000661 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1764.
+Total: 1.490900 ms (FindLiveObjects: 0.104900 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.346600 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000661 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.671 seconds
+- Completed reload, in  0.620 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 1.267000 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.099800 ms  DeleteObjects: 0.008900 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1767.
+Total: 1.583000 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.027900 ms MarkObjects: 1.406600 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1360.944279 seconds.
+  path: Assets/Materials/Chrome.mat
+  artifactKey: Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Chrome.mat using Guid(5d9e9209d6d25554f8d0fa5d4fe8249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f6f4f432ad48928837e72a940a0db5') in 0.215811 seconds
+  Import took 0.218158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Materials/Double Door.mat
+  artifactKey: Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Double Door.mat using Guid(fad582ed5f662b748a8cfa349908b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc21f9236a15fda61a157f0914852f3') in 0.189667 seconds
+  Import took 0.191173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.017401 seconds.
+  path: Assets/Materials/Light.mat
+  artifactKey: Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Light.mat using Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed6a7b8f382b86e61f39bf90eccdebf') in 0.008913 seconds
+  Import took 0.010891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.542041 seconds.
+  path: Assets/Materials/Light.mat
+  artifactKey: Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Light.mat using Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20358b8778b35224db3c61e8a64af81c') in 0.008339 seconds
+  Import took 0.010543 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
+Registered in 0.000699 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.664 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1889.
-Total: 1.291600 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.119600 ms  DeleteObjects: 0.009800 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 1.349400 ms (FindLiveObjects: 0.110400 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.198000 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 515.503232 seconds.
+  path: Assets/Materials/Light.mat
+  artifactKey: Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Light.mat using Guid(6f4e4031972218f40b6f7fd8b16729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3caefbf861db0e845637c83ad1b17a') in 0.205254 seconds
+  Import took 0.207479 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000416 seconds.
+Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.675 seconds
+- Completed reload, in  0.713 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1892.
-Total: 1.275600 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.109900 ms  DeleteObjects: 0.009600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 1.562900 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.374200 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4535.482402 seconds.
+  path: Assets/Textures/1200px-RCA_Indian_Head_Test_Pattern.svg.png
+  artifactKey: Guid(640264b03af857b4b940f515258e9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/1200px-RCA_Indian_Head_Test_Pattern.svg.png using Guid(640264b03af857b4b940f515258e9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd210c4c96e076511490e4667d9ad5d54') in 0.040632 seconds
+  Import took 0.042783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.452842 seconds.
+  path: Assets/Materials/TV ON.mat
+  artifactKey: Guid(1b841750666454f43ae0a004f9481755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TV ON.mat using Guid(1b841750666454f43ae0a004f9481755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea209b8b0ef4fa6271956d96095d924') in 0.030875 seconds
+  Import took 0.032719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.214231 seconds.
+  path: Assets/Textures/1200px-RCA_Indian_Head_Test_Pattern.svg.png
+  artifactKey: Guid(640264b03af857b4b940f515258e9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/1200px-RCA_Indian_Head_Test_Pattern.svg.png using Guid(640264b03af857b4b940f515258e9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2d26bdba4c8d27e5782ab042f87b8c') in 0.014150 seconds
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.531362 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(7e90d9ca7d9ae554191b7cbbec1aa3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(7e90d9ca7d9ae554191b7cbbec1aa3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173677d8f57a11c2cabda92e140126e1') in 0.011450 seconds
+  Import took 0.013470 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000466 seconds.
+Registered in 0.000733 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
+- Completed reload, in  0.697 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1895.
-Total: 1.273000 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.101100 ms  DeleteObjects: 0.009600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 1.452000 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.276200 ms  DeleteObjects: 0.012000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000429 seconds.
+Registered in 0.000752 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.664 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1898.
-Total: 1.330500 ms (FindLiveObjects: 0.141300 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.144100 ms  DeleteObjects: 0.008700 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 1.497100 ms (FindLiveObjects: 0.110000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.344100 ms  DeleteObjects: 0.011100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000454 seconds.
+Registered in 0.000630 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
+- Completed reload, in  0.656 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1901.
-Total: 1.255800 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.090100 ms  DeleteObjects: 0.008900 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 1.606300 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.388800 ms  DeleteObjects: 0.011400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000540 seconds.
+Registered in 0.000713 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
+- Completed reload, in  0.680 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1904.
-Total: 1.271100 ms (FindLiveObjects: 0.121500 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.104900 ms  DeleteObjects: 0.008500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 1.319100 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.163000 ms  DeleteObjects: 0.010000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000483 seconds.
+Registered in 0.000593 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
+- Completed reload, in  0.635 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1907.
-Total: 1.277800 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.104800 ms  DeleteObjects: 0.011500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 1.426700 ms (FindLiveObjects: 0.102900 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.286000 ms  DeleteObjects: 0.010500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000524 seconds.
+Registered in 0.000660 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1910.
-Total: 1.274300 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.104900 ms  DeleteObjects: 0.008700 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 1.471100 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.322600 ms  DeleteObjects: 0.010700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000456 seconds.
+Registered in 0.000708 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
+- Completed reload, in  0.668 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1913.
-Total: 1.297200 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.107500 ms  DeleteObjects: 0.010400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 1.387600 ms (FindLiveObjects: 0.147300 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.192300 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 781.981632 seconds.
+  path: Assets/Textures/Stucco dirty.jpg
+  artifactKey: Guid(6daa4df7e1e7ac34783def93d8130d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stucco dirty.jpg using Guid(6daa4df7e1e7ac34783def93d8130d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c629180ca687b9e0888eb558ff18fb4') in 0.056906 seconds
+  Import took 0.059092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.000601 seconds.
+  path: Assets/Materials/TV ON.mat
+  artifactKey: Guid(1b841750666454f43ae0a004f9481755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TV ON.mat using Guid(1b841750666454f43ae0a004f9481755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b2334e4fe6d114cb9d3e6e035623e') in 0.034153 seconds
+  Import took 0.036251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.472981 seconds.
+  path: Assets/Materials/Walls Bare.mat
+  artifactKey: Guid(85e24ce7f1332ee4da99742e0483ab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walls Bare.mat using Guid(85e24ce7f1332ee4da99742e0483ab45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b8759aee09e734158b8c887d5628a') in 0.011996 seconds
+  Import took 0.014185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.355018 seconds.
+  path: Assets/Fonts/Nomitais.ttf
+  artifactKey: Guid(4dd6f6569d3d18344b235030da767aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Nomitais.ttf using Guid(4dd6f6569d3d18344b235030da767aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77efafd54a4eb48eece953314a7a4010') in 0.031228 seconds
+  Import took 0.033705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053952 seconds.
+  path: Assets/Fonts/Question.ttf
+  artifactKey: Guid(53b5d6c133ccd914ebf56dba511e853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Question.ttf using Guid(53b5d6c133ccd914ebf56dba511e853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b54d51f668313de45f1db735b9abe9') in 0.159050 seconds
+  Import took 0.160904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Fonts/WELTSP__.TTF
+  artifactKey: Guid(896291cb3cc3f934cbc72ed4c6886fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/WELTSP__.TTF using Guid(896291cb3cc3f934cbc72ed4c6886fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34584806f3ae7f5e4bca8db4c81bea60') in 0.030523 seconds
+  Import took 0.032587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258401 seconds.
+  path: Assets/Fonts/WickedSeventies.ttf
+  artifactKey: Guid(aaf8754bd68c1154189b390e7c52961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/WickedSeventies.ttf using Guid(aaf8754bd68c1154189b390e7c52961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d6d3b07931ad8ce58beb0f7a345a5') in 0.022419 seconds
+  Import took 0.024533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263370 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/KeyBoard.jpg
+  artifactKey: Guid(550679340e4c0e74d971558d0daf791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/KeyBoard.jpg using Guid(550679340e4c0e74d971558d0daf791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd19dcaaa18bab3980abfbda859abb') in 0.014461 seconds
+  Import took 0.016461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449415 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/KeyManagerIcon.png
+  artifactKey: Guid(cde36458a8c86e8449728c22ba0f1d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/KeyManagerIcon.png using Guid(cde36458a8c86e8449728c22ba0f1d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e8a9e70515898f8bfd7b5027ea8dca') in 0.010430 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/Test/Lightmap-0_comp_dir.png
+  artifactKey: Guid(abce53e4d5dd95640b3fdcc19a509d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Lightmap-0_comp_dir.png using Guid(abce53e4d5dd95640b3fdcc19a509d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f2b470b3eb0268cd822c2fc0ed426d') in 0.008284 seconds
+  Import took 0.010017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036930 seconds.
+  path: Assets/Scenes/Test/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c7ab653e2cc097a43b2df417960e195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Lightmap-0_comp_light.exr using Guid(c7ab653e2cc097a43b2df417960e195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3e212dce85ad8bcb6aade58fae0dd7') in 0.017351 seconds
+  Import took 0.019477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Scenes/Test/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(6d443b10d91ee844ea074b46de6c93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Lightmap-0_comp_shadowmask.png using Guid(6d443b10d91ee844ea074b46de6c93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6fb3836d4271e0a14d4cbff371525a') in 0.008477 seconds
+  Import took 0.010369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406383 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/Old Computer UV.png
+  artifactKey: Guid(bd76153dfa5ded444af8a043a4e94e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/Old Computer UV.png using Guid(bd76153dfa5ded444af8a043a4e94e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9e87c0af318ed56eb5f3b930171f72') in 0.012901 seconds
+  Import took 0.014880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/Phone texture.png
+  artifactKey: Guid(dbf4288523310c64093546d2cecbdfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/Phone texture.png using Guid(dbf4288523310c64093546d2cecbdfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c4882ae5fa6cbd39c753f0e3929af7') in 0.008346 seconds
+  Import took 0.010058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044534 seconds.
+  path: Assets/Models/Security Office/Mat-Tex/plywood_diff_2k.jpg
+  artifactKey: Guid(268a73ac1358b9b488de76a7a5dffab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Security Office/Mat-Tex/plywood_diff_2k.jpg using Guid(268a73ac1358b9b488de76a7a5dffab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12856835003829f295fedd92c1ad35a8') in 0.012122 seconds
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366133 seconds.
+  path: Assets/Scenes/Test/ReflectionProbe-0.exr
+  artifactKey: Guid(8ca985329f87e7d4788779f06af49e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/ReflectionProbe-0.exr using Guid(8ca985329f87e7d4788779f06af49e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677706e7afe9612eb17168b2f7e21405') in 0.014127 seconds
+  Import took 0.015947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033675 seconds.
+  path: Assets/Scenes/Test/ReflectionProbe-1.exr
+  artifactKey: Guid(e1f9afc216b81eb419432aaabc586ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/ReflectionProbe-1.exr using Guid(e1f9afc216b81eb419432aaabc586ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f5b2bbc748aa492bcdf65370fdabe9') in 0.010738 seconds
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+  artifactKey: Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png using Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d294a9cf5ae735d3dc2b4adee3a35') in 0.019137 seconds
+  Import took 0.020801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031645 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+  artifactKey: Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png using Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd9b0729b6f34137cf35102b9208a3e') in 0.029036 seconds
+  Import took 0.030998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911103 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/TileIcon.png
+  artifactKey: Guid(aa972c52e6be3af4e806c4174ef0ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/TileIcon.png using Guid(aa972c52e6be3af4e806c4174ef0ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be567445dd6e8d6a769a836cbca550d') in 0.009164 seconds
+  Import took 0.011217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078053 seconds.
+  path: Assets/Standard Assets/DunGen/Code/Editor/Icons/TileSetIcon.png
+  artifactKey: Guid(2120a6a1c1f7c8e4c81feda0807ddf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Code/Editor/Icons/TileSetIcon.png using Guid(2120a6a1c1f7c8e4c81feda0807ddf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd09633e4bfce0124f23510601faa5e1') in 0.007366 seconds
+  Import took 0.009442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5197b6d8945fd1119665ed20680f579d') in 0.055905 seconds
+  Import took 0.057544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.842850 seconds.
+  path: Assets/Standard Assets/DunGen/Samples/Simple 2D/Sprites/Wall.png
+  artifactKey: Guid(9396731a3beccb14f96ea062849c324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/DunGen/Samples/Simple 2D/Sprites/Wall.png using Guid(9396731a3beccb14f96ea062849c324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd849c04f80f6677029db01e3238fce88') in 0.009752 seconds
+  Import took 0.011867 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000591 seconds.
+Registered in 0.000665 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1916.
-Total: 1.286600 ms (FindLiveObjects: 0.123800 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.117800 ms  DeleteObjects: 0.009700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000533 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D022A0C020 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 1.305700 ms (FindLiveObjects: 0.127100 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.132700 ms  DeleteObjects: 0.010700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000480 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4E460510 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1922.
-Total: 1.398500 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.232600 ms  DeleteObjects: 0.010300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000609 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D02154AE80 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1925.
-Total: 1.294900 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.117400 ms  DeleteObjects: 0.010100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000479 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D02A6BB040 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1928.
-Total: 1.245600 ms (FindLiveObjects: 0.123400 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.077600 ms  DeleteObjects: 0.009800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000471 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D0288E9CA0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.658 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.1 MB.
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 1.287900 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.128800 ms  DeleteObjects: 0.009700 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 1.355900 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.212700 ms  DeleteObjects: 0.010500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000470 seconds.
+Registered in 0.000659 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D027386CA0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
+- Completed reload, in  0.644 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 1.332400 ms (FindLiveObjects: 0.128400 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.158000 ms  DeleteObjects: 0.009400 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 1.433300 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.262000 ms  DeleteObjects: 0.011700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000459 seconds.
+Registered in 0.000670 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CE4D7E2840 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.644 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 1.283400 ms (FindLiveObjects: 0.125100 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.113600 ms  DeleteObjects: 0.009100 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 1.351800 ms (FindLiveObjects: 0.110100 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.202900 ms  DeleteObjects: 0.010900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000454 seconds.
+Registered in 0.000716 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D027388CB0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
+- Completed reload, in  0.645 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1940.
-Total: 1.307900 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.130100 ms  DeleteObjects: 0.010300 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 1.503700 ms (FindLiveObjects: 0.109500 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.354100 ms  DeleteObjects: 0.010700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000472 seconds.
+Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D027388CB0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
+- Completed reload, in  0.671 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1943.
-Total: 1.325600 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.141900 ms  DeleteObjects: 0.010500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000514 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D027388CB0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.666 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1946.
-Total: 1.439400 ms (FindLiveObjects: 0.133500 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.234400 ms  DeleteObjects: 0.031900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000471 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D027388CB0 doesn't match image C:\Users\sawbl\Documents\GitHub\Facility\Facility\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1242 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 1.434500 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.254800 ms  DeleteObjects: 0.009600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.685300 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.509600 ms  DeleteObjects: 0.012300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
